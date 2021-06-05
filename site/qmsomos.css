@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);
+
+}
+
+/*CABEÇALHO*/
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 3px;
+}
+
+/*Logo da empresa*/
+ #logmarc{
+    padding: 73px 46px;
+    object-fit: cover;
+}
+
+/*Links*/
+#menus ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#menus ul li { 
+    display: inline;
+ }
+
+#menus ul li a {
+    padding: 54px 20px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+    color: #FFFFFF;
+}   
+
+#menus ul li a:hover {
+    color: #DD3333;
+}
+
+
+/* Rede social no cabeçalho*/
+ #menu{
+    background-color: #0034AC;
+    margin-top: -21%;
+    width: 100%;
+    text-align: left;
+    padding: 25px 0 10px 0px;
+}
+/*Tel e Email*/
+#info{
+    font:  normal 14px "FontAwesome";
+    text-align: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: -1.8%;
+}
+
+/*tarja fina em baixo dos icones*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
+/*ICONE DE WHATS*/
+#whats{
+    position: fixed;
+    top: 35%;
+    right: 2%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+#whats a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/*RODAPÉ*/
+footer{
+    clear: both;
+    background-color: #DD3333;
+    min-height: 10px;
+    text-align: center;
+    color: white;
+    float: bottom;
+    margin: 20px;
+}
+
+/*CONTAINER DO EFEITO DA TELA*/
+
+.container{
+    height: 100%;
+    max-width: 100%;
+    padding: 1px 20px 0px 10px;
+    left: 0;
+    position: absolute;
+    
+}
+
+.efeito{
+   
+    color: white;
+    
+}
+
+section{
+  
+    background-size: 100%;
+    min-height: 400px;  
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+

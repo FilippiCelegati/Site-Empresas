@@ -1,0 +1,307 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);
+
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+}
+
+/*LOGO DA EMRPESA*/
+ #logmarc{
+    padding: 78px 35px;
+    object-fit: cover;
+}
+
+/*LINKS DO CABEÇALHO*/
+#menus ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#menus ul li { 
+    display: inline;
+ }
+
+#menus ul li a {
+    padding: 54px 20px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+    color: #FFFFFF;
+}   
+
+#menus ul li a:hover {
+    color: #DD3333;
+}
+
+
+
+/*ID*/
+
+/* MENU DE ICONES CABEÇALHO*/
+ #menu{
+    background-color: #0034AC;
+    margin-top: -21%;
+    width: 100%;
+    text-align: left;
+    padding: 25px 0 10px 0px;
+}
+/*TEL E EMAIL*/
+#info{
+    font:  normal 14px "FontAwesome";
+    text-align: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: -1.8%;
+}
+
+/*tarja fina em baixo dos icones*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
+
+
+/*ICONE DE WHATS*/
+#whats{
+    position: fixed;
+    top: 35%;
+    right: 2%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+#whats a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+footer{
+    clear: both;
+    background-color: #DD3333;
+    min-height: 10px;
+    text-align: center;
+    color: white;
+    float: bottom;
+    margin: 20px;
+}
+
+img{
+    vertical-align: middle;
+ }
+
+ body .servicos .servicos-img{
+    transition: 0.5s all !important;
+}
+
+.servicos-nomes{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    transition: 0.5s all !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*AMORTECEDOR*/
+.cx_vermelha{
+    background: rgba(230,0,8,0.68);
+    bottom: 105px;
+    position: absolute;
+    display: table;
+    margin: 20px;
+}
+
+ .img-amortecedor{
+    
+    margin: 20px;
+ }
+
+
+ 
+/*EMBREAGEM*/
+.cx_vermelhaemb{
+    background: rgba(230,0,8,0.68);
+    bottom: 125px;
+    position: absolute;
+    display: table;
+    margin-left: 280px;
+    
+}
+
+.img-emb{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 1.5%;
+}
+
+/*INJEÇÃO*/
+.cx_vermelhainj{
+    background: rgba(230,0,8,0.68);
+    bottom: 125px;
+    position: absolute;
+    display: table;
+    margin-left: 530px;
+    
+}
+
+.img-inj{
+    display: block;
+    margin-left: 530px;
+    margin-top: -17%;
+}
+
+/*ESCAPAMENTOS*/
+
+.cx_vermelhaescap{
+    background: rgba(230,0,8,0.68);
+    bottom: 125px;
+    position: absolute;
+    display: table;
+    margin-left: 760px;
+    
+}
+
+.img-escap{
+    display: block;
+    margin-left: 760px;
+    margin-top: -15.5%;
+}
+
+/*PREVENTIVA*/
+.cx_vermelhamanu{
+    background: rgba(230,0,8,0.68);
+    bottom: -140px;
+    position: absolute;
+    display: table;
+    margin: 20px;
+    
+}
+
+.img-manu{
+    display: block;
+    margin-top: 15%;
+    margin: 20px;
+    padding: 20px 20px 20px 0;
+}
+
+/*FREIOS*/
+.cx_vermelhafreio{
+    background: rgba(230,0,8,0.68);
+    bottom: -120px;
+    position: absolute;
+    display: table;
+    margin-left: 280px;
+    margin-top: -17%;
+    
+}
+
+.img-freios{
+    display: block;
+    margin-top: 15%;
+    margin-left: 280px;
+    padding: 20px 20px 20px 0;
+    margin-top: -20%;
+}
+
+
+/*CATALIZDOR*/
+.cx_vermelhacatali{
+    background: rgba(230,0,8,0.68);
+    position: absolute;
+    bottom: -115px;
+    display: table;
+    margin-left: 530px;
+    margin-top: -17%;
+    
+}
+
+.img-catali{
+    display: block;
+    margin-top: 15%;
+    margin-left: 530px;
+    padding: 20px 20px 20px 0;
+    margin-top: -18.5%;
+}
+
+/*SUSPENÇÃO*/
+.cx_vermelhasusp{
+    background: rgba(230,0,8,0.68);
+    position: absolute;
+    bottom: -115px;
+    display: table;
+    margin-left: 760px;
+    margin-top: -17%;
+    
+}
+
+.img-susp{
+    display: block;
+    margin-top: 15%;
+    margin-left: 760px;
+    padding: 20px 20px 20px 0;
+    margin-top: -18.5%;
+}
+
+
+/*TITULO PRINCIPAL DE SERVIÇOS*/
+
+.servicos{
+    bottom: 10px;
+}
+
+.titulo-princ{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+/*CLASSES*/
+
+.espec{
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .img-inj{
+        display: block;
+        margin: 20px;
+    }
+
+    .cx_vermelhainj{
+        background: rgba(230,0,8,0.68);
+        bottom: -180px;
+        position: absolute;
+        display: table;
+        margin: 20px;
+        
+    }
+}
+    

@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+/*TESTE*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);
+
+}
+
+/*CABEÇALHO*/
+
+
+
+/* Menu rede social*/
+.menu{
+        
+        background-color: #0034AC;
+        margin-top: -20%;
+        width: 100%;
+        text-align: left;
+        padding: 13px 0px;
+    }
+
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    
+    
+}
+
+/*Logo da empresa*/
+ #logmarc{
+   padding: 73px 46px;
+  
+}
+
+/*Links*/
+
+#links > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#links > ul > li { 
+    display: inline;
+ }
+
+ #links > ul > li a {
+    font-family: 'Oswald', sans-serif;
+    padding: 54px 20px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+    color: #FFFFFF;
+}   
+
+#links > ul > li a:hover {
+    color: #DD3333;
+}
+
+/*Tel e Email*/
+.info{
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: -1.8%;
+}
+
+/*tarja fina em baixo do menu*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
+
+
+/*ICONE DE WHATS*/
+#whats{
+    position: fixed;
+    top: 35%;
+    right: 2%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+#whats a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/*LOGOS DAS MARCAS DE CARRO*/
+#logcar{
+    text-align: center;
+}
+
+.marcas{
+    background-color: #202020;
+    margin: 20px;
+    padding: 0 10px 0 0;
+}
+
+
+/*BOTAO DE "-VER MAIS-"*/
+
+.botao-servicos{
+    text-decoration: none;
+    color: #2B2B5C;
+    border: 3px solid #2B2B5C;
+    border-radius: 10px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botao{
+    margin-top: -4%;
+    float: right;
+    margin-right: 35%;
+}
+
+
+.botao a:hover span{
+    background: #2B2B5C;
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 5px;
+	bottom: 150%;
+}
+
+
+/*ESPECIALIZADA*/
+
+#ttesp{
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    color: #2B2B5C;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.servicos{
+    height: 400px;
+    width: 850px ;
+}
+
+.img-figure{
+    display: inline-block;
+    width: 10%;
+    height: 150px;
+    margin: 1rem;
+    padding: 0px 25px 30px 0;
+    margin-left: -240px;
+}
+
+
+/*Amortecedor*/
+
+
+ .img-figure_amortecedor h3{
+    margin-left: 20px;
+ }
+
+ 
+/*Embreagem*/
+
+.img-figure_embreagem{
+    margin: 70px;   
+}
+
+.img-figure_embreagem h3{
+    margin-left: 50px;  
+    text-align: center;
+ }
+
+
+
+/*Injeção*/
+
+.img-figure_injecao{
+   margin: 50px;
+}
+
+.img-figure_injecao h3{
+   margin-left: 20px; 
+   margin-right:-96px;
+   text-align: center;
+   font-size: 17px;
+ }
+
+ /*INFORMAÇÕES GERAIS*/
+.sect {
+    margin: 2rem 1.1rem;  
+}
+
+ ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+ }
+
+li{
+    vertical-align: middle;
+    display: table-cell;   
+}
+
+.item_info{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.item_info > h2{
+    color: rgb(73, 75, 75);
+    
+}
+
+.item_info-emp{
+    margin: 2rem;    
+}
+
+.item_info-contato{
+    text-align: center;  
+    margin-top: -2%;
+}
+
+.item_info-contato :hover img{
+    background-color:  yellow;
+}
+
+.item_info-hr{
+ margin-top: -5%;
+
+}
+
+ /*RODAPÉ*/
+ footer{
+    clear: both;
+    background-color: #DD3333;
+    min-height: 10px;
+    text-align: center;
+    color: white;
+    float: bottom;
+    margin: 20px;
+}
+
+/*ID CONFIG DA CONTAINER DA FOTO*/
+#slider{
+    width: 100%; /*sempre segue um tamanho de 100%*/
+    max-width: 2000px; /*vai ate o maximo de 2000px*/
+    height: 35vw;
+    max-height: 800px;
+    position: relative;
+    background-size: cover;
+}
+
+/*Id config da foto*/
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover; /*tira aquela sensção de esticado da foto*/
+    transition: opacity 800ms;
+}
+
+/*Usada no JS*/
+#slider img.selected{
+    opacity: 1;
+}
+
+hr{
+    transform: rotate(90deg);
+    width: 100px;
+}
+
+
+
+
+/*RESPONSIVIDADE CABEÇAHO*/
+
+@media screen and (max-width: 600px) {
+
+nav{
+width: 100%;
+padding: 0;
+margin-top: -4%;
+}
+
+    #logmarc{
+width: 100%;
+padding: 0;
+    }
+    
+
+#links ul li{
+  float: none;
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    #links ul li a{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
+
+.menu{
+        width: 100%;
+        padding: 70px 0 40px 0px;
+        margin-top: -30%;
+        text-align: right;
+}
+
+.itens_insta{
+    display: inline;
+}
+
+.itens_face{
+    width: 90%;
+    display: inline;
+}
+
+.info{
+  display: inline-block;
+  width: 100%;  
+  text-align: right;
+  padding: 3px 0 10px;
+  background-color: #DD3333;
+}
+
+#infos{
+    width: 95%;
+  
+}
+
+#whats{
+    position: fixed;
+    top: 35%;
+    right: 60%;
+    z-index: 1000000;
+}
+
+#whats a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: inline-block;
+}
+
+}
+
+
+/*RESPONSIVIDADE VEJA MAIS*/
+
+
+
+
+
