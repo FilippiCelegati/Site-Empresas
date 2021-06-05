@@ -133,9 +133,10 @@ nav{
 }
 
 .botao{
-    margin-top: -4%;
-    float: right;
-    margin-right: 35%;
+    margin-top: -2%;
+    /*float: right;
+    margin-right: 35%;*/
+    text-align: center;
 }
 
 
@@ -145,6 +146,11 @@ nav{
 	border-radius: 10px;
 	padding: 5px;
 	bottom: 150%;
+}
+
+.v_m{
+    padding: 42px 0 14px 0;
+    margin: 6px 20px;
 }
 
 
@@ -162,6 +168,7 @@ nav{
 .servicos{
     height: 400px;
     width: 850px ;
+    margin: auto;
 }
 
 .img-figure{
@@ -185,7 +192,7 @@ nav{
 /*Embreagem*/
 
 .img-figure_embreagem{
-    margin: 70px;   
+    margin: 8px 55px 0px 100px;;   
 }
 
 .img-figure_embreagem h3{
@@ -198,7 +205,7 @@ nav{
 /*Injeção*/
 
 .img-figure_injecao{
-   margin: 50px;
+   margin: 8px 0px 0px 50px;
 }
 
 .img-figure_injecao h3{
