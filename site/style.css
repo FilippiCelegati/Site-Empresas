@@ -118,7 +118,7 @@ nav{
 /*BOTAO DE "-VER MAIS-"*/
 
 .botao-servicos{
-    text-decoration: none;
+    transition: 0.5s all !important;
     color: #2B2B5C;
     border: 3px solid #2B2B5C;
     border-radius: 10px;
@@ -129,13 +129,11 @@ nav{
     padding-bottom: 10px;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .botao{
     margin-top: -2%;
-    /*float: right;
-    margin-right: 35%;*/
     text-align: center;
 }
 
@@ -143,16 +141,13 @@ nav{
 .botao a:hover span{
     background: #2B2B5C;
 	color: #FFFFFF;
-	border-radius: 10px;
-	padding: 5px;
-	bottom: 150%;
 }
 
 .v_m{
-    padding: 42px 0 14px 0;
-    margin: 6px 20px;
+    background-color: white;
+    padding: 1px 0 25px 0px;
+    width: 100%;
 }
-
 
 /*ESPECIALIZADA*/
 
@@ -177,7 +172,7 @@ nav{
     height: 150px;
     margin: 1rem;
     padding: 0px 25px 30px 0;
-    margin-left: -240px;
+    margin-left: -120px;
 }
 
 
@@ -192,7 +187,7 @@ nav{
 /*Embreagem*/
 
 .img-figure_embreagem{
-    margin: 8px 55px 0px 100px;;   
+    margin: 8px 55px 0px 100px;  
 }
 
 .img-figure_embreagem h3{
@@ -217,7 +212,8 @@ nav{
 
  /*INFORMAÇÕES GERAIS*/
 .sect {
-    margin: 2rem 1.1rem;  
+    background-color: #2f2f2f;
+    margin: 0 20px; 
 }
 
  ul{
@@ -229,6 +225,11 @@ nav{
 li{
     vertical-align: middle;
     display: table-cell;   
+}
+
+li > h3{
+    color:#2B2B5C;
+    font-family: 'Oswald', sans-serif;
 }
 
 .item_info{
@@ -248,6 +249,7 @@ li{
     margin: 2rem;    
 }
 
+
 .item_info-contato{
     text-align: center;  
     margin-top: -2%;
@@ -264,13 +266,22 @@ li{
 
  /*RODAPÉ*/
  footer{
-    clear: both;
-    background-color: #DD3333;
-    min-height: 10px;
-    text-align: center;
+    background-color: #413e3e;
+    text-align: left;
     color: white;
-    float: bottom;
-    margin: 20px;
+    margin: 0px 20px 5px 20px;
+}
+
+footer > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+
+#icon{
+    text-align: right;
+    padding: 0 0 25px 0;
+    margin-top: -2%;
 }
 
 /*ID CONFIG DA CONTAINER DA FOTO*/
