@@ -56,18 +56,21 @@ nav{
  }
 
  #links > ul > li a {
+    transition: 0.5s all !important;
     font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
     padding: 54px 20px;
     display: inline-block;
     color: #333;
     text-decoration: none;
     font-size: 20px;
     text-shadow: 1px 1px 1px #111;
-    color: #FFFFFF;
+    color: #DD3333;
+
 }   
 
 #links > ul > li a:hover {
-    color: #DD3333;
+    color: #0034AC;
 }
 
 /*Tel e Email*/
@@ -212,7 +215,7 @@ nav{
 
  /*INFORMAÇÕES GERAIS*/
 .sect {
-    background-color: #2f2f2f;
+    background-color: #3A4635;
     margin: 0 20px; 
 }
 
@@ -233,7 +236,7 @@ li > h3{
 }
 
 .item_info{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     display: inline-block;
     width: 10%;
     text-align: center;
@@ -241,12 +244,21 @@ li > h3{
 }
 
 .item_info > h2{
-    color: rgb(73, 75, 75);
+    color: #D5ACA1;
     
+}
+
+.intem_info > p{
+    color: #E1E0DE;
 }
 
 .item_info-emp{
     margin: 2rem;    
+}
+
+.item_info-emp :hover p {
+    transition: 0.5s all !important;
+    color: red;
 }
 
 
@@ -256,7 +268,7 @@ li > h3{
 }
 
 .item_info-contato :hover img{
-    background-color:  yellow;
+    background-color:  blue;
 }
 
 .item_info-hr{
