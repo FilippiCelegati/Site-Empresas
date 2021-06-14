@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
@@ -11,59 +12,83 @@ body{
 
 }
 
+/*CABEÇALHO*/
+
+
+
+/* Menu rede social*/
+.menu{
+        
+        background-color: #0034AC;
+        margin-top: -20%;
+        width: 100%;
+        text-align: left;
+        padding: 13px 0px;
+    }
+
 nav{
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    padding: 3px;
+    
+    
 }
 
-/*LOGO DA EMRPESA*/
+/*Logo da empresa*/
  #logmarc{
-    padding: 73px 46px;
-    object-fit: cover;
+   padding: 73px 46px;
+  
 }
 
-/*LINKS DO CABEÇALHO*/
-#menus ul {
+/*Links*/
+
+#links > ul {
     padding: 0px;
     margin: 0px;
     list-style:none;
 }
 
-#menus ul li { 
+#links > ul > li { 
     display: inline;
  }
 
-#menus ul li a {
+ #links > ul > li a {
+    transition: 0.5s all !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
     padding: 54px 20px;
     display: inline-block;
     color: #333;
     text-decoration: none;
     font-size: 20px;
     text-shadow: 1px 1px 1px #111;
-    color: #FFFFFF;
+    color: #DD3333;
+
 }   
 
-#menus ul li a:hover {
-    color: #DD3333;
+#links > ul > li a:hover {
+    color: #0034AC;
 }
 
-
-
-/*ID*/
-
-/* MENU DE ICONES CABEÇALHO*/
- #menu{
-    background-color: #0034AC;
-    margin-top: -21%;
-    width: 100%;
-    text-align: left;
-    padding: 25px 0 10px 0px;
+/*Tel e Email*/
+.info{
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: -1.8%;
 }
-/*TEL E EMAIL*/
+
+/*tarja fina em baixo do menu*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
+/*Tel e Email*/
 #info{
     font:  normal 14px "FontAwesome";
     text-align: right;
@@ -78,7 +103,6 @@ nav{
     padding: 0px 0 .1px 0px;
     height: 3px;
 }
-
 
 
 /*ICONE DE WHATS*/
