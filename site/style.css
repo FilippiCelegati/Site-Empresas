@@ -13,6 +13,8 @@ body{
 
 }
 
+
+
 /*CABEÇALHO*/
 
 
@@ -61,17 +63,16 @@ nav{
     font-weight: bolder;
     padding: 54px 20px;
     display: inline-block;
-    color: #333;
     text-decoration: none;
     font-size: 20px;
     text-shadow: 1px 1px 1px #111;
     color: #DD3333;
-
 }   
 
 #links > ul > li a:hover {
-    color: #0034AC;
+    color: #0034AC;  
 }
+
 
 /*Tel e Email*/
 .info{
@@ -167,7 +168,8 @@ nav{
     height: 400px;
     width: 850px ;
     margin: auto;
-}
+  }
+
 
 .img-figure{
     display: inline-block;
@@ -178,23 +180,83 @@ nav{
     margin-left: -120px;
 }
 
+.servicos-nomes{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    transition: 0.5s all !important;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
 
 /*Amortecedor*/
 
+.cx_preta_amortecedor{
+    background: #00000096;
+    transition: .5s all !important;
+    position: absolute !important;
+    bottom: -595px;
+    left: 145px;
+    padding-right: 12px;
+    margin: 20px;
+    display: table;
+  
+}
 
- .img-figure_amortecedor h3{
-    margin-left: 20px;
+.cx_preta_amortecedor:hover{
+    transform: scale(1.1);
+}
+
+.img-figure_amortecedor{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+ }
+ 
+ .img-figure_amortecedor img{
+    width: 100%;
+    height: 100%;
+    transition: .5s all !important;
+    
+ }
+ 
+ .img-figure_amortecedor:hover img{
+    transform: scale(1.1);
  }
 
  
 /*Embreagem*/
 
 .img-figure_embreagem{
-    margin: 8px 55px 0px 100px;  
+    
+    width: 200px;
+    height: auto;
+    margin: 8px 55px 0px 100px; 
+    overflow: hidden;
+    object-fit: cover; 
 }
 
+.img-figure_embreagem img{
+    width: 100%;
+    height: 100%;
+    transition: .5s all !important;
+ }
+ 
+ .img-figure_embreagem:hover img{
+    transform: scale(1.1);
+ }
+
+
 .img-figure_embreagem h3{
-    margin-left: 50px;  
+    margin-left: 7px;  
     text-align: center;
  }
 
@@ -202,13 +264,27 @@ nav{
 
 /*Injeção*/
 
-.img-figure_injecao{
-   margin: 8px 0px 0px 50px;
+.img-figure_injecao{width: 200px;
+    height: 200px;
+    margin: 8px 0px 0px 50px;
+    overflow: hidden;
+    object-fit: cover;
 }
+
+.img-figure_injecao img{
+    width: 100%;
+    height: 100%;
+    transition: .5s all !important;
+ }
+ 
+ .img-figure_injecao:hover img{
+    transform: scale(1.1);
+ }
+
 
 .img-figure_injecao h3{
    margin-left: 20px; 
-   margin-right:-96px;
+   margin-right: 2px;
    text-align: center;
    font-size: 17px;
  }
