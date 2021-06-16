@@ -236,6 +236,29 @@ nav{
  
 /*Embreagem*/
 
+.cx_embreagem{
+    background: transparent;
+    transition: .5s all !important;
+    position: absolute !important;
+    bottom: -345px;
+    left: 485px;
+    padding-right: 12px;
+    margin: 20px;
+    display: table;
+  
+}
+
+.cx_embreagem:hover{
+    transform: scale(1.1);
+}
+
+.servicos-embreagem{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
 .img-figure_embreagem{
     
     width: 200px;
@@ -264,6 +287,30 @@ nav{
 
 
 /*Injeção*/
+
+.cx_injecao{
+    background: transparent;
+    transition: .5s all !important;
+    position: absolute !important;
+    bottom: -345px;
+    left: 825px;
+    padding-right: 12px;
+    margin: 20px;
+    display: table;
+  
+}
+
+.cx_injecao:hover{
+    transform: scale(1.1);
+}
+
+.servicos-injecao{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
 
 .img-figure_injecao{width: 200px;
     height: 200px;
