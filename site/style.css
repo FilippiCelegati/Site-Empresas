@@ -122,7 +122,14 @@ nav{
 /*BOTAO DE "-VER MAIS-"*/
 
 .botao-servicos{
+    background-color: white;
+    transform-style: preserve-3d;
+ 
+}
+
+.botao-servicos:after{
     transition: 0.5s all !important;
+    width: 100%;
     color: #2B2B5C;
     border: 3px solid #2B2B5C;
     border-radius: 10px;
@@ -134,18 +141,30 @@ nav{
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 18px;
+    position: absolute;
+    box-sizing: border-box;
+    content: 'Clique Aqui!';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
 }
 
-.botao{
+.botao-servicos:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+/*.botao{
     margin-top: -2%;
     text-align: center;
 }
 
 
-.botao a:hover span{
+/*.botao a:hover span{
     background: #2B2B5C;
 	color: #FFFFFF;
-}
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}*/
 
 .v_m{
     background-color: white;
