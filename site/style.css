@@ -144,7 +144,7 @@ nav{
     box-sizing: border-box;
     position: relative;
     cursor: pointer;
-    transition: all 0.5s !important;
+    transition: all 400ms ease;
 }
 
 .botao-servicos{
@@ -154,9 +154,9 @@ nav{
 }
 
 .botao-servicos:after{
-    color: #ffff;
+    color: #2B2B5C;
     border: 3px solid #2B2B5C;
-    background: #2B2B5C;
+    background: #fff;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -164,10 +164,10 @@ nav{
     width: 100%;
     line-height: 24px;
     border-radius: 10px;
-    padding: 10px 20px 20px 10px;
+    padding: 10px 20px 10px 20px;
     position: absolute;
     box-sizing: border-box;
-    content: 'CLIQUE AQUI!';
+    content: '- CLIQUE AQUI! -';
     transform-origin: left bottom;
     transform: rotateX(90deg);
 }
@@ -219,14 +219,17 @@ nav{
 /*Amortecedor*/
 
 .cx_amortecedor{
-    background: transparent;
+    background: blue;
     transition: .5s all !important;
-    position: absolute !important;
+    position: absolute;
     bottom: -345px;
-    left: 145px;
+    top: 138%;
+    left: 10.5%;
+    /*left: 145px;*/
     padding-right: 12px;
     margin: 20px;
     display: table;
+    transform: translate(5%, 10.5%);
   
 }
 
