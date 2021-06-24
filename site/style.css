@@ -338,7 +338,8 @@ nav{
 }
 
 
-.img-figure_injecao{width: 200px;
+.img-figure_injecao{
+    width: 200px;
     height: 200px;
     margin: 8px 0px 0px 50px;
     overflow: hidden;
@@ -417,9 +418,16 @@ li > h3{
     margin-top: -2%;
 }
 
-.item_info-contato :hover img{
-    background-color:  blue;
+.icon:hover p {
+    color: red;
 }
+
+.icon:hover{
+    background-image: url('icones/icon-loc-v.png');
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
 
 .item_info-hr{
  margin-top: -5%;
