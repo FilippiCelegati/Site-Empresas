@@ -8,7 +8,8 @@
 
 
 body{
-    background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);
+    background-color: #0034AC;
+    /*background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);*/
 
 }
 
@@ -118,41 +119,36 @@ nav{
     box-sizing: border-box;
 }
 
+/*PRINCIPAL*/
+
+section{ 
+    display: inline-block;
+    min-height: 400px;
+    margin: 20px 650px 0 20px;
+}
+
+.principal > p{
+    color: white;
+}
 
 /*RODAPÉ*/
 footer{
-    clear: both;
-    background-color: #DD3333;
-    min-height: 10px;
-    text-align: center;
-    color: white;
-    float: bottom;
-    margin: 20px;
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #001a56;
+    margin: 21px 16px 15px 20px;
 }
 
-/*CONTAINER DO EFEITO DA TELA*/
-
-.container{
-    height: 100%;
-    max-width: 100%;
-    padding: 1px 20px 0px 10px;
-    left: 0;
-    position: absolute;
-    
+footer > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding: 15px 7px 16px 60px;
 }
 
-.efeito{
-   
-    color: white;
-    
-}
-
-section{
-  
-    background-size: 100%;
-    min-height: 400px;  
-    margin: auto;
-    max-width: 1000px;
+#icon{
+    text-align: right;
+    padding: 0 4px 14px 0;
+    margin-top: -2%;
 }
 
 
