@@ -122,21 +122,52 @@ nav{
 /*PRINCIPAL*/
 
 section{ 
-    display: inline-block;
-    min-height: 400px;
-    margin: 20px 650px 0 20px;
+    margin: 20px 60px 0 20px;
 }
 
-.principal > p{
-    color: white;
+.princ_qm{
+    width: 40%;
+    text-align: center;
+    padding: 0 90px;
 }
+
+.princ_qm > p{
+    color: #666666;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.princ_qm > h1{
+    color: #f3f3f3;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.42857143;
+    text-align: center;
+}
+
+.princ_qm > h2{
+    color:#f3f3f3;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+}
+
+.locz{
+   text-align: right;
+   margin-left: 50%;
+   margin-top: -30%;
+
+}
+
 
 /*RODAPÉ*/
 footer{
     background-color: #f3f3f3;
     text-align: left;
     color: #001a56;
-    margin: 21px 16px 15px 20px;
+    margin: 150px 16px 15px 20px;
 }
 
 footer > p{
