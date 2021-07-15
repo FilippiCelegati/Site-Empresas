@@ -132,10 +132,11 @@ section{
 }
 
 .princ_qm > p{
-    color: #666666;
+    color: #c9bebe;
     text-align: justify;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+    font-weight: lighter;
     line-height: 24px;
 }
 
@@ -154,11 +155,97 @@ section{
     font-size: 14px;
 }
 
+/*LOCALIZAÇÃO*/
+
 .locz{
    text-align: right;
    margin-left: 50%;
    margin-top: -30%;
 
+}
+
+/*LINHA VERMELHA*/
+
+#linver{
+    border-top: 1px solid #f4001e;
+    margin: 120px 70px;
+}
+
+/*GALERIA*/
+
+figure{
+    margin-left: 105px;
+}
+
+
+#galeria{
+    color: #f3f3f3;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+  
+}
+
+ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+
+.min{
+    width: 200px;
+    padding: 10px;
+}
+
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(243, 243, 243, .7);
+    position: fixed;
+}
+
+.box_img{
+    width: 1000px;
+    margin: 150px auto;
+}
+
+
+/*BOTÕES*/
+
+.bnt{
+    color: #f3f3f3;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#prev{
+    left: 5%;
+    top: 45%;
+}
+
+#next{
+    right: 5%;
+    top: 45%;
+}
+
+#close{
+    top: 0;
+    right: 2%;
 }
 
 
@@ -168,6 +255,7 @@ footer{
     text-align: left;
     color: #001a56;
     margin: 150px 16px 15px 20px;
+    border-radius: 8px;
 }
 
 footer > p{
