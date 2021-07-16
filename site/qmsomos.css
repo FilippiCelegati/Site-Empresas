@@ -9,8 +9,6 @@
 
 body{
     background-color: #0034AC;
-    /*background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);*/
-
 }
 
 /*CABEÇALHO*/
@@ -28,7 +26,7 @@ body{
     }
 
 nav{
-    background-color: white;
+    background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,29 +166,31 @@ section{
 
 #linver{
     border-top: 1px solid #f4001e;
-    margin: 120px 70px;
+    margin: 120px 70px 60px 70px;
 }
 
 /*GALERIA*/
 
 figure{
     margin-left: 105px;
+    
 }
 
 
 #galeria{
     color: #f3f3f3;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Oswald", sans-serif;
   
 }
 
-ul{
+figure ul{
     width: 880px;
     list-style: none;
     display: flex;
-    margin: 100px auto;
+    margin: 70px;
+    
 }
 
 .min{
@@ -201,6 +201,7 @@ ul{
 .lbox{
     visibility: hidden;
     opacity: 0;
+    position: fixed;
 }
 
 .lbox:target{
@@ -216,7 +217,7 @@ ul{
 
 .box_img{
     width: 1000px;
-    margin: 150px auto;
+    margin: 10px auto;
 }
 
 
