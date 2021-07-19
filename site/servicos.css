@@ -123,10 +123,11 @@ img{
     vertical-align: middle;
  }
 
- body .servicos .servicos-img{
-    transition: 0.5s all !important;
+.img_fig{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-
 .servicos-nomes{
     color: #FFFFFF;
     text-transform: uppercase;
@@ -139,77 +140,60 @@ img{
 }
 
 /*AMORTECEDOR*/
-.cx_vermelha{
-    background: rgba(230,0,8,0.68);
+.cx_txt-amor{
+    background: rgba(63, 62, 62, 0.68);
     bottom: 66px;
     position: absolute;
     margin: 20px;
     padding: 10px 0 10px 0;
 }
 
- .img-amortecedor{
+ .img_fig-amortecedor{
     margin: 20px;
  }
 
 
  
 /*EMBREAGEM*/
-.cx_vermelhaemb{
-    background: rgba(230,0,8,0.68);
+.cx_txt-emb{
+    background: rgba(63, 62, 62, 0.68);
     bottom: 125px;
     position: absolute;
-    margin-left: 280px;
-    
+    left: 280px;
 }
 
-.img-emb{
+.img_fig-emb{
     position: absolute;
-    margin-left: 55px;
-    margin-top: 1.5%;
+    margin-left: 280px;
+    margin-top: -16.5%;
 }
 
 /*INJEÇÃO*/
-.cx_vermelhainj{
-    background: rgba(230,0,8,0.68);
+.cx_txt-inj{
+    background: rgba(63, 62, 62, 0.68);
     bottom: 125px;
     position: absolute;
-    margin-left: 530px;
+    left: 530px;
     
 }
 
-.img-inj{
+.img_fig-inj{
     display: block;
     margin-left: 530px;
     margin-top: -17%;
 }
 
-/*ESCAPAMENTOS
-
-.cx_vermelhaescap{
-    background: rgba(230,0,8,0.68);
-    bottom: 125px;
-    position: absolute;
-    display: table;
-    margin-left: 760px;
-    
-}
-
-.img-escap{
-    display: block;
-    margin-left: 760px;
-    margin-top: -15.5%;
-}*/
 
 /*PREVENTIVA*/
-.cx_vermelhamanu{
-    background: rgba(230,0,8,0.68);
+.cx_txt-manu{
+    background: rgba(63, 62, 62, 0.68);
     bottom: -140px;
     position: absolute;
-    margin: 20px;
+    left: 20px;
     
 }
 
-.img-manu{
+.img_fig-manu{
     display: block;
     margin-top: 15%;
     margin: 20px;
@@ -217,14 +201,14 @@ img{
 }
 
 /*FREIOS*/
-.cx_vermelhafreio{
-    background: rgba(230,0,8,0.68);
+.cx_txt-freio{
+    background: rgba(63, 62, 62, 0.68);
     bottom: -120px;
     position: absolute;
-    margin-left: 280px;   
+    left: 280px;   
 }
 
-.img-freios{
+.img_fig-freios{
     display: block;
     margin-top: 15%;
     margin-left: 280px;
@@ -232,7 +216,20 @@ img{
     margin-top: -20%;
 }
 
+/*SUSPENÇÃO*/
+.cx_txt-susp{
+    background: rgba(63, 62, 62, 0.68);
+    position: absolute;
+    bottom: -115px;
+    left: 529px;
+}
 
+.img_fig-susp{
+    display: block;
+    margin-left: 529px;
+    padding: 20px 20px 20px 0;
+    margin-top: -18.5%;
+}
 /*CATALIZDOR
 .cx_vermelhacatali{
     background: rgba(230,0,8,0.68);
@@ -251,22 +248,22 @@ img{
     margin-top: -18.5%;
 }*/
 
-/*SUSPENÇÃO*/
-.cx_vermelhasusp{
+/*ESCAPAMENTOS
+
+.cx_vermelhaescap{
     background: rgba(230,0,8,0.68);
+    bottom: 125px;
     position: absolute;
-    bottom: -115px;
-    margin-left: 529px;
+    display: table;
+    margin-left: 760px;
+    
 }
 
-.img-susp{
+.img-escap{
     display: block;
-    margin-top: 15%;
-    margin-left: 529px;
-    padding: 20px 20px 20px 0;
-    margin-top: -18.5%;
-}
-
+    margin-left: 760px;
+    margin-top: -15.5%;
+}*/
 
 /*TITULO PRINCIPAL DE SERVIÇOS*/
 
