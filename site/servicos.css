@@ -135,24 +135,19 @@ img{
     font-family: "Oswald", sans-serif;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-size: 16px;
-    margin-bottom: 0px;
-    transition: 0.5s all !important;
-    display: table-cell;
-    vertical-align: middle;
+    font-size: 16px;    
 }
 
 /*AMORTECEDOR*/
 .cx_vermelha{
     background: rgba(230,0,8,0.68);
-    bottom: 105px;
+    bottom: 66px;
     position: absolute;
-    display: table;
     margin: 20px;
+    padding: 10px 0 10px 0;
 }
 
  .img-amortecedor{
-    
     margin: 20px;
  }
 
@@ -163,7 +158,6 @@ img{
     background: rgba(230,0,8,0.68);
     bottom: 125px;
     position: absolute;
-    display: table;
     margin-left: 280px;
     
 }
@@ -179,7 +173,6 @@ img{
     background: rgba(230,0,8,0.68);
     bottom: 125px;
     position: absolute;
-    display: table;
     margin-left: 530px;
     
 }
@@ -190,7 +183,7 @@ img{
     margin-top: -17%;
 }
 
-/*ESCAPAMENTOS*/
+/*ESCAPAMENTOS
 
 .cx_vermelhaescap{
     background: rgba(230,0,8,0.68);
@@ -205,14 +198,13 @@ img{
     display: block;
     margin-left: 760px;
     margin-top: -15.5%;
-}
+}*/
 
 /*PREVENTIVA*/
 .cx_vermelhamanu{
     background: rgba(230,0,8,0.68);
     bottom: -140px;
     position: absolute;
-    display: table;
     margin: 20px;
     
 }
@@ -229,10 +221,7 @@ img{
     background: rgba(230,0,8,0.68);
     bottom: -120px;
     position: absolute;
-    display: table;
-    margin-left: 280px;
-    margin-top: -17%;
-    
+    margin-left: 280px;   
 }
 
 .img-freios{
@@ -244,12 +233,11 @@ img{
 }
 
 
-/*CATALIZDOR*/
+/*CATALIZDOR
 .cx_vermelhacatali{
     background: rgba(230,0,8,0.68);
     position: absolute;
     bottom: -115px;
-    display: table;
     margin-left: 530px;
     margin-top: -17%;
     
@@ -261,23 +249,20 @@ img{
     margin-left: 530px;
     padding: 20px 20px 20px 0;
     margin-top: -18.5%;
-}
+}*/
 
 /*SUSPENÇÃO*/
 .cx_vermelhasusp{
     background: rgba(230,0,8,0.68);
     position: absolute;
     bottom: -115px;
-    display: table;
-    margin-left: 760px;
-    margin-top: -17%;
-    
+    margin-left: 529px;
 }
 
 .img-susp{
     display: block;
     margin-top: 15%;
-    margin-left: 760px;
+    margin-left: 529px;
     padding: 20px 20px 20px 0;
     margin-top: -18.5%;
 }
