@@ -210,7 +210,7 @@ img{
 /*FREIOS*/
 .cx_txt-freio{
     background: rgba(63, 62, 62, 0.68);
-    bottom: -141px;
+    bottom: -138px;
     position: absolute;
     left: 280px; 
     padding: 10px 0 10px 0;
@@ -225,15 +225,15 @@ img{
 }
 
 /*SUSPENÇÃO*/
-.cx_txt-susp{
+.cx_txt-oleo{
     background: rgba(63, 62, 62, 0.68);
     position: absolute;
-    bottom: -141px;
+    bottom: -138px;
     left: 529px;
     padding: 10px 0 10px 0;
 }
 
-.img_fig-susp{
+.img_fig-oleo{
     border:5px;
     display: block;
     margin-left: 529px;

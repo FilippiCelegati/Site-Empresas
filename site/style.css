@@ -148,7 +148,7 @@ nav{
 }
 
 .botao-servicos{
-    background-color: white;
+    background-color: #f3f3f3;
     transform-style: preserve-3d;
  
 }
@@ -156,7 +156,7 @@ nav{
 .botao-servicos:after{
     color: #2B2B5C;
     border: 3px solid #2B2B5C;
-    background: #fff;
+    background: #f3f3f3;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -218,51 +218,51 @@ nav{
 
 /*Amortecedor*/
 
-.cx_amortecedor{
+.cx_oleo{
     background: transparent;
     transition: .5s all !important;
     position: absolute;
     bottom: -345px;
-    top: 138%;
-    left: 13%;
+    top: 133%;
+    left: 14%;
     padding-right: 12px;
     margin: 20px;
     display: table;  
 }
 
-.cx_amortecedor:hover{
+.cx_oleo:hover{
+    
     transform: scale(1.1);
 }
 
-.servicos-amortecedor{
+.servicos-oleo{
     padding-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 0px;
 
 }
 
-.img-figure_amortecedor{
+.img-figure_oleo{
     width: 200px;
     height: 200px;
     overflow: hidden;
     object-fit: cover;
  }
  
- .img-figure_amortecedor img{
+ .img-figure_oleo img{
     width: 100%;
     height: 100%;
     transition: .5s all !important;
-    
  }
  
- .img-figure_amortecedor:hover img{
+ .img-figure_oleo:hover img{
     transform: scale(1.1);
  }
 
  
 /*Embreagem*/
 
-.cx_embreagem{
+.cx_prod{
     background: transparent;
     transition: .5s all !important;
     position: absolute !important;
@@ -274,18 +274,18 @@ nav{
   
 }
 
-.cx_embreagem:hover{
+.cx_prod:hover{
     transform: scale(1.1);
 }
 
-.servicos-embreagem{
+.servicos-prod{
     padding-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 0px;
 
 }
 
-.img-figure_embreagem{
+.img-figure_prod{
     
     width: 200px;
     height: auto;
@@ -294,18 +294,18 @@ nav{
     object-fit: cover; 
 }
 
-.img-figure_embreagem img{
+.img-figure_prod img{
     width: 100%;
     height: 100%;
     transition: .5s all !important;
  }
  
- .img-figure_embreagem:hover img{
+ .img-figure_prod:hover img{
     transform: scale(1.1);
  }
 
 
-.img-figure_embreagem h3{
+.img-figure_prod h3{
     margin-left: 7px;  
     text-align: center;
  }
@@ -314,7 +314,7 @@ nav{
 
 /*Injeção*/
 
-.cx_injecao{
+.cx_bateria{
     background: transparent;
     transition: .5s all !important;
     position: absolute !important;
@@ -326,11 +326,11 @@ nav{
   
 }
 
-.cx_injecao:hover{
+.cx_bateria:hover{
     transform: scale(1.1);
 }
 
-.servicos-injecao{
+.servicos-bateria{
     padding-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -338,7 +338,7 @@ nav{
 }
 
 
-.img-figure_injecao{
+.img-figure_bateria{
     width: 200px;
     height: 200px;
     margin: 8px 0px 0px 50px;
@@ -346,18 +346,18 @@ nav{
     object-fit: cover;
 }
 
-.img-figure_injecao img{
+.img-figure_bateria img{
     width: 100%;
     height: 100%;
     transition: .5s all !important;
  }
  
- .img-figure_injecao:hover img{
+ .img-figure_bateria:hover img{
     transform: scale(1.1);
  }
 
 
-.img-figure_injecao h3{
+.img-figure_bateria h3{
    margin-left: 20px; 
    margin-right: 2px;
    text-align: center;
