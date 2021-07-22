@@ -142,7 +142,7 @@ img{
 /*AMORTECEDOR*/
 .cx_txt-amor{
     background: rgba(63, 62, 62, 0.68);
-    bottom: 66px;
+    bottom: 84px;
     position: absolute;
     margin: 20px;
     padding: 10px 0 10px 0;
@@ -157,9 +157,10 @@ img{
 /*EMBREAGEM*/
 .cx_txt-emb{
     background: rgba(63, 62, 62, 0.68);
-    bottom: 125px;
+    bottom: 100px;
     position: absolute;
     left: 280px;
+    padding: 10px 0 10px 0;
 }
 
 .img_fig-emb{
@@ -171,10 +172,10 @@ img{
 /*INJEÇÃO*/
 .cx_txt-inj{
     background: rgba(63, 62, 62, 0.68);
-    bottom: 125px;
+    bottom: 107px;
     position: absolute;
     left: 530px;
-    
+    padding: 10px 0 10px 0;
 }
 
 .img_fig-inj{
@@ -187,10 +188,10 @@ img{
 /*PREVENTIVA*/
 .cx_txt-manu{
     background: rgba(63, 62, 62, 0.68);
-    bottom: -140px;
+    bottom: -141px;
     position: absolute;
     left: 20px;
-    
+    padding: 10px 0 10px 0;
 }
 
 .img_fig-manu{
@@ -203,9 +204,10 @@ img{
 /*FREIOS*/
 .cx_txt-freio{
     background: rgba(63, 62, 62, 0.68);
-    bottom: -120px;
+    bottom: -141px;
     position: absolute;
-    left: 280px;   
+    left: 280px; 
+    padding: 10px 0 10px 0;
 }
 
 .img_fig-freios{
@@ -220,8 +222,9 @@ img{
 .cx_txt-susp{
     background: rgba(63, 62, 62, 0.68);
     position: absolute;
-    bottom: -115px;
+    bottom: -141px;
     left: 529px;
+    padding: 10px 0 10px 0;
 }
 
 .img_fig-susp{
@@ -264,6 +267,73 @@ img{
     margin-left: 760px;
     margin-top: -15.5%;
 }*/
+
+/*CAIXA DE IMAGENS*/
+
+/*.file01 ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 70px;
+    
+}*/
+
+.min{
+    width: 200px;
+    padding: 10px;
+}
+
+.lboxS{
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+}
+
+.lboxS:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(243, 243, 243, .7);
+    position: fixed;
+}
+
+.box_imgS{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+/*BOTÕES*/
+
+.bnt{
+    color: #f3f3f3;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#prev{
+    left: 5%;
+    top: 45%;
+}
+
+#next{
+    right: 5%;
+    top: 45%;
+}
+
+#close{
+    top: 0;
+    right: 2%;
+}
+
+
 
 /*TITULO PRINCIPAL DE SERVIÇOS*/
 
