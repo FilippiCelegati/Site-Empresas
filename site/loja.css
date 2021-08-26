@@ -8,100 +8,82 @@
 
 
 body{
-    background-image: linear-gradient(to right, #1B1E54, #2B2B5C, #0B5192);
+    background-color: #0034AC;
 
 }
 
+
 /*CABEÇALHO*/
-
-
 
 /* Menu rede social*/
 .menu{
         
-        background-color: #0034AC;
-        margin-top: -20%;
-        width: 100%;
-        text-align: left;
-        padding: 13px 0px;
-    }
+    background-color: #0034AC;
+    margin-top: -20%;
+    width: 100%;
+    text-align: left;
+    padding: 13px 0px;
+}
 
 nav{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    
-    
+background-color: #f3f3f3;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 100%;
+
+
 }
 
 /*Logo da empresa*/
- #logmarc{
-   padding: 73px 46px;
-  
+#logmarc{
+padding: 73px 46px;
+
 }
 
 /*Links*/
 
 #links > ul {
-    padding: 0px;
-    margin: 0px;
-    list-style:none;
+padding: 0px;
+margin: 0px;
+list-style:none;
 }
 
 #links > ul > li { 
-    display: inline;
- }
+display: inline;
+}
 
- #links > ul > li a {
-    transition: 0.5s all !important;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bolder;
-    padding: 54px 20px;
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px #111;
-    color: #DD3333;
-
+#links > ul > li a {
+transition: 0.5s all !important;
+font-family: 'Oswald', sans-serif;
+font-weight: bolder;
+padding: 54px 20px;
+display: inline-block;
+text-decoration: none;
+font-size: 20px;
+text-shadow: 1px 1px 1px #111;
+color: #DD3333;
 }   
 
 #links > ul > li a:hover {
-    color: #0034AC;
+color: #0034AC;  
 }
+
 
 /*Tel e Email*/
 .info{
-    font-family: 'Oswald', sans-serif;
-    text-align: right;
-    color: white;
-    margin-right: 30px;
-    margin-top: -1.8%;
+font-family: 'Oswald', sans-serif;
+text-align: right;
+color: white;
+margin-right: 30px;
+margin-top: -1.8%;
 }
 
 /*tarja fina em baixo do menu*/
 #lista{
-    background-color: #DD3333;
-    padding: 0px 0 .1px 0px;
-    height: 3px;
-}
-
-/*Tel e Email*/
-#info{
-    font:  normal 14px "FontAwesome";
-    text-align: right;
-    color: white;
-    margin-right: 30px;
-    margin-top: -1.8%;
-}
-
-/*tarja fina em baixo dos icones*/
-#lista{
-    background-color: #DD3333;
-    padding: 0px 0 .1px 0px;
-    height: 3px;
+background-color: #DD3333;
+padding: 0px 0 .1px 0px;
+height: 3px;
 }
 
 
@@ -119,36 +101,67 @@ nav{
     box-sizing: border-box;
 }
 
-footer{
-    clear: both;
-    background-color: #DD3333;
-    min-height: 10px;
-    text-align: center;
-    color: white;
-    float: bottom;
-    margin: 20px;
-}
-
-/*CONTAINER DO EFEITO DA TELA*/
-
-.container{
-    height: 100%;
-    max-width: 100%;
-    padding: 1px 20px 0px 10px;
-    left: 0;
-    position: absolute;
-}
-
-/*TEXTO*/
-.efeito{
-    color: white;   
-}
+/*TELA PRINCIPAL*/
 
 section{
-  
-    background-size: 100%;
-    min-height: 400px; 
-    margin: auto;
-    max-width: 1000px;
+    margin: 20px 60px 0 20px;
 }
+
+.txt-lj{
+    text-align: right;
+  margin: 0px 20px 5px 20px;
+  
+}
+
+.txt-lj > p{
+    color: #c9bebe;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+}
+}
+
+
+.cx_opt{
+  text-align: left;
+}
+
+
+select{
+   background-color: #f3f3f3;
+   width: 200px;
+   height: 30px;
+   border: 1px solid #898989;
+   border-radius: 5px;
+   font-family: 'Lato', sans-serif;
+   font-weight: bolder;
+}
+
+/*RODAPÉ*/
+
+footer{
+    background-color: #f3f3f3;
+    text-align: left;
+    color: #001a56;
+    margin: 0px 20px 5px 20px;
+    
+}
+
+footer > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding: 15px 7px 16px 60px;
+}
+
+#icon{
+    text-align: right;
+    padding: 0 7px 25px 0;
+    margin-top: -2%;
+}
+
+
+
+
 
