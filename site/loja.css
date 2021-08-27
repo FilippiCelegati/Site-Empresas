@@ -90,7 +90,7 @@ height: 3px;
 /*ICONE DE WHATS*/
 #whats{
     position: fixed;
-    top: 35%;
+    top: 20%;
     right: 2%;
     padding: 10px;
     z-index: 10000000;
@@ -108,9 +108,18 @@ section{
 }
 
 .txt-lj{
-    text-align: right;
-  margin: 0px 20px 5px 20px;
-  
+  width: 60%;  
+  text-align: center;  
+  padding: 0 -90px;
+}
+
+
+.txt-lj > h1{
+    color: #f3f3f3;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.42857143;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .txt-lj > p{
@@ -120,12 +129,15 @@ section{
     font-size: 14px;
     font-weight: lighter;
     line-height: 24px;
-}
+    
 }
 
 
 .cx_opt{
-  text-align: left;
+  text-align: right;
+  margin-left: 20px;
+  margin-top: -20%;
+  height: 410px;
 }
 
 
@@ -145,8 +157,8 @@ footer{
     background-color: #f3f3f3;
     text-align: left;
     color: #001a56;
-    margin: 0px 20px 5px 20px;
-    
+    margin: 150px 16px 15px 20px;
+    border-radius: 8px;
 }
 
 footer > p{
@@ -157,10 +169,9 @@ footer > p{
 
 #icon{
     text-align: right;
-    padding: 0 7px 25px 0;
+    padding: 0 4px 14px 0;
     margin-top: -2%;
 }
-
 
 
 
