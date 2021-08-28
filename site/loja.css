@@ -151,13 +151,28 @@ select{
    font-weight: bolder;
 }
 
-/*LINHA VERMELHA*/
+/*FOTOS PRODUTOS*/
 
-#linver{
-
-    border-top: 1px solid #f4001e;
-    margin: 50px 70px 60px 70px;
+figure ul{
+    max-width: 800px;
+    list-style: none;
+    display: flex;
+    
 }
+
+.min{
+    width: 130px;
+    padding: 10px 5px 0 5px;
+}
+
+#list-1{
+    margin-left: 700px;
+}
+
+#list-2{
+    margin-left: 700px;
+}
+
 
 /*RODAPÉ*/
 
