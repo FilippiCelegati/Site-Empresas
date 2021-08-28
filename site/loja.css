@@ -151,6 +151,14 @@ select{
    font-weight: bolder;
 }
 
+/*LINHA VERMELHA*/
+
+#linver{
+
+    border-top: 1px solid #f4001e;
+    margin: 50px 70px 60px 70px;
+}
+
 /*RODAPÉ*/
 
 footer{
