@@ -133,11 +133,20 @@ section{
 }
 
 
-.cx_opt{
+/*.cx_opt{
   text-align: right;
   margin-left: 20px;
   margin-top: -20%;
   height: 410px;
+}*/
+
+
+/*LINHA VERMELHA*/
+
+#linver{
+
+    border-top: 1px solid #f4001e;
+    margin: 50px 70px 60px 70px;
 }
 
 
