@@ -134,25 +134,9 @@ img{
     max-width: auto;
     margin: auto;
   }
-.servicos-nomes{
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    font-family: "Oswald", sans-serif;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-size: 16px;    
-}
+
 
 /*AMORTECEDOR*/
-.cx_txt-amor{
-    background: rgba(63, 62, 62, 0.68);
-    bottom: 84px;
-    position: absolute;
-    margin: 20px;
-    padding: 10px 0 10px 0;
-}
 
  .img_fig-amortecedor{
     margin: 20px;
@@ -161,13 +145,6 @@ img{
 
  
 /*EMBREAGEM*/
-.cx_txt-emb{
-    background: rgba(63, 62, 62, 0.68);
-    bottom: 100px;
-    position: absolute;
-    left: 280px;
-    padding: 10px 0 10px 0;
-}
 
 .img_fig-emb{
     position: absolute;
@@ -176,13 +153,6 @@ img{
 }
 
 /*INJEÇÃO*/
-.cx_txt-inj{
-    background: rgba(63, 62, 62, 0.68);
-    bottom: 107px;
-    position: absolute;
-    left: 530px;
-    padding: 10px 0 10px 0;
-}
 
 .img_fig-inj{
     display: block;
@@ -192,13 +162,6 @@ img{
 
 
 /*PREVENTIVA*/
-.cx_txt-manu{
-    background: rgba(63, 62, 62, 0.68);
-    bottom: -141px;
-    position: absolute;
-    left: 20px;
-    padding: 10px 0 10px 0;
-}
 
 .img_fig-manu{
     display: block;
@@ -208,13 +171,6 @@ img{
 }
 
 /*FREIOS*/
-.cx_txt-freio{
-    background: rgba(63, 62, 62, 0.68);
-    bottom: -138px;
-    position: absolute;
-    left: 280px; 
-    padding: 10px 0 10px 0;
-}
 
 .img_fig-freios{
     display: block;
@@ -225,13 +181,6 @@ img{
 }
 
 /*SUSPENÇÃO*/
-.cx_txt-oleo{
-    background: rgba(63, 62, 62, 0.68);
-    position: absolute;
-    bottom: -138px;
-    left: 529px;
-    padding: 10px 0 10px 0;
-}
 
 .img_fig-oleo{
     border:5px;
@@ -241,50 +190,6 @@ img{
     margin-top: -18.5%;
 }
 
-/*CATALIZDOR
-.cx_vermelhacatali{
-    background: rgba(230,0,8,0.68);
-    position: absolute;
-    bottom: -115px;
-    margin-left: 530px;
-    margin-top: -17%;
-    
-}
-
-.img-catali{
-    display: block;
-    margin-top: 15%;
-    margin-left: 530px;
-    padding: 20px 20px 20px 0;
-    margin-top: -18.5%;
-}*/
-
-/*ESCAPAMENTOS
-
-.cx_vermelhaescap{
-    background: rgba(230,0,8,0.68);
-    bottom: 125px;
-    position: absolute;
-    display: table;
-    margin-left: 760px;
-    
-}
-
-.img-escap{
-    display: block;
-    margin-left: 760px;
-    margin-top: -15.5%;
-}*/
-
-/*CAIXA DE IMAGENS*/
-
-/*.file01 ul{
-    width: 880px;
-    list-style: none;
-    display: flex;
-    margin: 70px;
-    
-}*/
 
 .min{
     width: 200px;
