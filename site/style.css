@@ -13,6 +13,10 @@ body{
 
 }
 
+main{
+  
+    margin: auto;
+}
 
 
 /*CABEÇALHO*/
@@ -124,8 +128,9 @@ nav{
 
 .v_m{
     background-color: #f3f3f3;
-    padding: 1px 0 25px 0px;
+    padding-bottom: 25px;
     width: 100%;
+    margin: auto;
 }
 
 .efeito{
