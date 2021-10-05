@@ -111,81 +111,13 @@ nav{
 }
 
 
-/*LOGOS DAS MARCAS DE CARRO*/
-#logcar{
-    text-align: center;
-}
-
-.marcas{
-    background-color: #202020;
-    margin: 20px;
-    border-radius: 8px;
-    padding: 0 10px 0 0;
-}
-
-
-/*BOTAO DE "-VER MAIS-"*/
-
-.v_m{
-    background-color: #f3f3f3;
-    padding-bottom: 25px;
-    width: 100%;
-    margin: auto;
-}
-
-.efeito{
-    color: #2B2B5C;
-    border: 3px solid #2B2B5C;
-    background: transparent;
-    font-family: "Oswald", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 550px;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    position: relative;
-    cursor: pointer;
-    transition: all 400ms ease;
-}
-
-.botao-servicos{
-    background-color: #f3f3f3;
-    transform-style: preserve-3d;
- 
-}
-
-.botao-servicos:after{
-    color: #2B2B5C;
-    border: 3px solid #2B2B5C;
-    background: #f3f3f3;
-    font-family: "Oswald", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    left: 0px;
-    width: 100%;
-    line-height: 24px;
-    border-radius: 10px;
-    padding: 10px 20px 10px 20px;
-    position: absolute;
-    box-sizing: border-box;
-    content: '- CLIQUE AQUI! -';
-    transform-origin: left bottom;
-    transform: rotateX(90deg);
-}
-
-.botao-servicos:hover{
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
-}
-
-
 /*ESPECIALIZADA*/
 
+section{
+    height: 370px;
+}
+
+/*BOX DO TEXTO*/
 #ttesp{
     font-family: "Oswald", sans-serif;
     font-weight: 800;
@@ -211,9 +143,7 @@ nav{
     margin-left: -50px;
 }
 
-
-/*Amortecedor*/
-
+/*ÓLEO*/
 .cx_oleo{
     background: transparent;
     transition: .5s all !important;
@@ -255,9 +185,9 @@ nav{
     transform: scale(1.1);
  }
 
- 
-/*Embreagem*/
 
+
+ /*PRODUTOS DE HIGIENE*/
 .cx_prod{
     background: transparent;
     transition: .5s all !important;
@@ -307,9 +237,7 @@ nav{
  }
 
 
-
-/*Injeção*/
-
+/*BATERIAS*/
 .cx_bateria{
     background: transparent;
     transition: .5s all !important;
@@ -318,8 +246,7 @@ nav{
     left: 861px;
     padding-right: 12px;
     margin: 20px;
-    display: table;
-  
+    display: table; 
 }
 
 .cx_bateria:hover{
@@ -332,7 +259,6 @@ nav{
     margin-bottom: 0px;
 
 }
-
 
 .img-figure_bateria{
     width: 200px;
@@ -352,13 +278,57 @@ nav{
     transform: scale(1.1);
  }
 
-
 .img-figure_bateria h3{
    margin-left: 20px; 
    margin-right: 2px;
    text-align: center;
    font-size: 17px;
  }
+
+
+ /*BOTÃO*/
+
+.botao-servicos{
+    text-decoration: none;
+    color: #2B2B5C;
+    border: 3px solid #2B2B5C;
+    border-radius: 10px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botao{
+    float: right;
+    margin-right: 48%;
+}
+
+
+.botao a:hover span{
+    background: #2B2B5C;
+	color: #FFFFFF;
+	border-radius: 10px;
+    transition: 0.5s all !important;
+}
+
+
+/*LOGOS DAS MARCAS DE CARRO*/
+#logcar{
+    text-align: center;
+}
+
+.marcas{
+    background-color: #202020;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 0 10px 0 0;
+}
+
 
  /*INFORMAÇÕES GERAIS*/
 .sect {
