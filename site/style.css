@@ -13,7 +13,7 @@ body{
 
 }
 
-main {
+/*main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -122,7 +122,7 @@ section{
 #ttesp{
     font-family: "Oswald", sans-serif;
     font-weight: 800;
-    color: #2B2B5C;
+    color: #f3f3f3;
     text-align: center;
     padding: 10px;
    
@@ -188,105 +188,6 @@ section{
 
 
 
- /*PRODUTOS DE HIGIENE*/
-.cx_prod{
-    background: transparent;
-    transition: .5s all !important;
-    position: absolute !important;
-    bottom: -345px;
-    left: 515px;
-    padding-right: 12px;
-    margin: 20px;
-    display: table;
-  
-}
-
-.cx_prod:hover{
-    transform: scale(1.1);
-}
-
-.servicos-prod{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-
-}
-
-.img-figure_prod{
-    
-    width: 200px;
-    height: auto;
-    margin: 8px 55px 0px 100px; 
-    overflow: hidden;
-    object-fit: cover; 
-}
-
-.img-figure_prod img{
-    width: 100%;
-    height: 100%;
-    transition: .5s all !important;
- }
- 
- .img-figure_prod:hover img{
-    transform: scale(1.1);
- }
-
-
-.img-figure_prod h3{
-    margin-left: 7px;  
-    text-align: center;
- }
-
-
-/*BATERIAS*/
-.cx_bateria{
-    background: transparent;
-    transition: .5s all !important;
-    position: absolute !important;
-    bottom: -345px;
-    left: 861px;
-    padding-right: 12px;
-    margin: 20px;
-    display: table; 
-}
-
-.cx_bateria:hover{
-    transform: scale(1.1);
-}
-
-.servicos-bateria{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-
-}
-
-.img-figure_bateria{
-    width: 200px;
-    height: 200px;
-    margin: 8px 0px 0px 50px;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.img-figure_bateria img{
-    width: 100%;
-    height: 100%;
-    transition: .5s all !important;
- }
- 
- .img-figure_bateria:hover img{
-    transform: scale(1.1);
- }
-
-.img-figure_bateria h3{
-   margin-left: 20px; 
-   margin-right: 2px;
-   text-align: center;
-   font-size: 17px;
- }
-
-
  /*BOTÃO*/
 
 .botao-servicos{
@@ -307,6 +208,7 @@ section{
 .botao{
     float: right;
     margin-right: 48%;
+    margin-top: 2%;
 }
 
 
@@ -321,11 +223,12 @@ section{
 /*LOGOS DAS MARCAS DE CARRO*/
 #logcar{
     text-align: center;
+
 }
 
 .marcas{
     background-color: #202020;
-    margin: 20px;
+    margin: 50px 20px 20px 20px;
     border-radius: 8px;
     padding: 0 10px 0 0;
 }
