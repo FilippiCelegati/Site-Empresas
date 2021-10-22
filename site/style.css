@@ -115,27 +115,27 @@ nav{
 /*ESPECIALIZADA*/
 
 section{
-    height: 370px;
+    height: 500px;
 }
 
 /*BOX DO TEXTO*/
 #ttesp{
     font-family: "Oswald", sans-serif;
     font-weight: 800;
-    color: #f3f3f3;
+    color: #0034AC;
     text-align: center;
     padding: 10px;
    
 }
 
-/*.servicos{
+.servicos{
     height: 400px;
     width: 850px ;
     margin: auto;
-  }*/
+  }
 
 
-.img-figure{
+.img-figure {
     display: inline-block;
     width: 10%;
     height: 150px;
@@ -144,45 +144,20 @@ section{
     margin-left: -50px;
 }
 
-/*ÓLEO*/
-.cx_oleo{
-    background: transparent;
-    transition: .5s all !important;
-    position: absolute;
-    bottom: -345px;
-    top: 133%;
-    left: 14%;
-    padding-right: 12px;
-    margin: 20px;
-    display: table;  
-}
-
-.cx_oleo:hover{
-    
-    transform: scale(1.1);
-}
-
-.servicos-oleo{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-
-}
-
-.img-figure_oleo{
+.img-figure_loja{
     width: 200px;
     height: 200px;
     overflow: hidden;
     object-fit: cover;
  }
  
- .img-figure_oleo img{
+ .img-figure_loja img{
     width: 100%;
     height: 100%;
     transition: .5s all !important;
  }
  
- .img-figure_oleo:hover img{
+ .img-figure_loja:hover img{
     transform: scale(1.1);
  }
 
@@ -196,8 +171,8 @@ section{
     border: 3px solid #2B2B5C;
     border-radius: 10px;
     background: transparent;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: "Oswald", sans-serif;
@@ -208,7 +183,6 @@ section{
 .botao{
     float: right;
     margin-right: 48%;
-    margin-top: 2%;
 }
 
 
@@ -306,6 +280,11 @@ li > h3{
 }
 
  /*RODAPÉ*/
+.sect {
+     height: 300px;
+ }
+
+
  footer{
     background-color: #f3f3f3;
     text-align: left;
