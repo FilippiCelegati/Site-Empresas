@@ -13,11 +13,6 @@ body{
 
 }
 
-/*main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-}
 
 
 /*CABEÇALHO*/
@@ -112,10 +107,20 @@ nav{
 }
 
 
+main .princ {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /*ESPECIALIZADA*/
 
-section{
-    height: 500px;
+/*section .sect-princ{
+    
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
 }
 
 /*BOX DO TEXTO*/
@@ -132,6 +137,8 @@ section{
     height: 400px;
     width: 250px ;
     margin: auto;
+
+    flex: 1;
   }
 
 
@@ -182,7 +189,7 @@ section{
 
 .botao{
     float: right;
-    margin-right: 48%;
+    margin-right: 44%;
 }
 
 
@@ -205,6 +212,11 @@ section{
     margin: 50px 20px 20px 20px;
     border-radius: 8px;
     padding: 0 10px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    
 }
 
 
@@ -213,6 +225,11 @@ section{
     background-color: #001a56;
     margin: 35px 20px 0 20px; 
     border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    
 }
 
  ul{
@@ -250,6 +267,7 @@ li > h3{
 
 .item_info-emp{
     margin: 2rem;    
+    
 }
 
 .item_info-emp :hover p {
