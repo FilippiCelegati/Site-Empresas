@@ -232,7 +232,7 @@ main .princ {
     
 }
 
- ul{
+ /*ul{
     padding: 0;
     margin: 0;
     text-align: center;
@@ -246,7 +246,7 @@ li{
 li > h3{
     color:#2B2B5C;
     font-family: 'Oswald', sans-serif;
-}
+}*/
 
 .item_info{
     font-family: 'Oswald', sans-serif;
@@ -358,82 +358,15 @@ hr{
 
 
 
-/*RESPONSIVIDADE CABEÇAHO
+/*RESPONSIVIDADE CABEÇAHO*/
 
-@media screen and (max-width: 280px) {
-
-nav{
-width: 100%;
-padding: 0;
-margin-top: -4%;
-}
-
-    #logmarc{
-width: 100%;
-padding: 0;
-    }
-    
-
-#links ul li{
-  float: none;
+@media (max-width: 600x) {
+    .sect{
         width: 100%;
-        padding: 0 40px;
     }
-
-    #links ul li a{
-        padding: 10px;
-        text-align: center;
-    }
-    
-    
-
-.menu{
-        width: 100%;
-        padding: 70px 0 40px 0px;
-        margin-top: -30%;
-        text-align: right;
-}
-
-.itens_insta{
-    display: inline;
-}
-
-.itens_face{
-    width: 90%;
-    display: inline;
-}
-
-.info{
-  display: inline-block;
-  width: 100%;  
-  text-align: right;
-  padding: 3px 0 10px;
-  background-color: #DD3333;
-}
-
-#infos{
-    width: 95%;
-  
-}
-
-#whats{
-    position: fixed;
-    top: 35%;
-    right: 60%;
-    z-index: 1000000;
-}
-
-#whats a{
-    text-decoration: none;
-    box-sizing: border-box;
 }
 
 
-header{
-    display: inline-block;
-}
-
-}
 
 
 
