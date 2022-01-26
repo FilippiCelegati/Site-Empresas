@@ -225,14 +225,14 @@ main .princ {
     background-color: #001a56;
     margin: 35px 20px 0 20px; 
     border-radius: 8px;
-
-    display: flex;
-    flex-direction: column;
+    height: 300px;
+    /*display: flex;
+    flex-direction: column;*/
     min-width: 300px;
     
 }
 
- /*ul{
+ ul{
     padding: 0;
     margin: 0;
     text-align: center;
@@ -246,7 +246,7 @@ li{
 li > h3{
     color:#2B2B5C;
     font-family: 'Oswald', sans-serif;
-}*/
+}
 
 .item_info{
     font-family: 'Oswald', sans-serif;
@@ -265,10 +265,7 @@ li > h3{
     color: #E1E0DE;
 }
 
-.item_info-emp{
-    margin: 2rem;    
-    
-}
+
 
 .item_info-emp :hover p {
     transition: 0.5s all !important;
@@ -298,10 +295,6 @@ li > h3{
 }
 
  /*RODAPÉ*/
-.sect {
-     height: 300px;
- }
-
 
  footer{
     background-color: #f3f3f3;
@@ -358,10 +351,10 @@ hr{
 
 
 
-/*RESPONSIVIDADE CABEÇAHO*/
+/*RESPONSIVIDADE CABEÇAHO
 
 @media (max-width: 600x) {
-    .sect{
+    .info{
         width: 100%;
     }
 }
