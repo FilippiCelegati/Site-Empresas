@@ -223,50 +223,31 @@ main .princ {
  /*INFORMAÇÕES GERAIS*/
 .sect {
     background-color: #001a56;
+    width: 95%;
     margin: 35px 20px 0 20px; 
     border-radius: 8px;
     height: 300px;    
 }
 
- /*ul{
-    padding: 0;
-    margin: 0;
-    text-align: center;
- }
-
-li{
-    vertical-align: middle;
-    display: table-cell;   
+.item_sect{
+    float: left;
+     
+    margin-left: 5%; 
+    font-family: 'Oswald', sans-serif;
+    color: #E1E0DE; 
 }
 
-li > h3{
-    color:#2B2B5C;
-    font-family: 'Oswald', sans-serif;
-}*/
-
-.item_section{
-    font-family: 'Oswald', sans-serif;
-    color: #E1E0DE;
-    display: inline-block;
-    width: 33.3333%;
-    text-align: center;  
-}
-
-.item_section > h2{
+.item_sect > h2{
     color: #f4001e;
     
 }
 
 
-.item_section-emp :hover p {
+.item_sect :hover p {
     transition: 0.5s all !important;
     color: red;
 }
 
-
-.item_section-contato{
-     width: 50%;
-}
 
 .icon:hover p {
     color: red;
@@ -275,14 +256,9 @@ li > h3{
 .icon:hover{
     background-image: url('icones/icon-loc-v.png');
     background-repeat: no-repeat;
-    text-align: right;
+  
 }
 
-
-.item_section-hr{
- width: 80%;
-
-}
 
  /*RODAPÉ*/
 
@@ -343,9 +319,13 @@ hr{
 
 /*RESPONSIVIDADE CABEÇAHO*/
 
-@media (max-width: 600x) {
-    .item_section{
-        width: 100%;
+@media (max-width: 600px) {
+    .item_sect{
+        float: left;
+        width: 30%;
+        height: 300px;
+        margin-left: 0;
+        margin-right: 3%;
     }
 }
 
