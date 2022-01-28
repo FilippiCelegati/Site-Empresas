@@ -209,29 +209,23 @@ main .princ {
 
 .marcas{
     background-color: #202020;
-    margin: 50px 20px 20px 20px;
-    border-radius: 8px;
-    padding: 0 10px 0 0;
-
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    
+    width: 90%;
+    margin: 35px 20px 20px 50px;
+    border-radius: 8px;  
 }
 
 
  /*INFORMAÇÕES GERAIS*/
 .sect {
     background-color: #001a56;
-    width: 95%;
-    margin: 35px 20px 0 20px; 
+    width: 90%;
+    margin: 35px 25px 0 50px; 
     border-radius: 8px;
     height: 300px;    
 }
 
 .item_sect{
     float: left;
-     
     margin-left: 5%; 
     font-family: 'Oswald', sans-serif;
     color: #E1E0DE; 
@@ -267,6 +261,7 @@ main .princ {
     text-align: left;
     color: #001a56;
     border-radius: 8px;
+    height: 50px;
     margin: 15px 20px 5px 20px;
     
 }
@@ -280,7 +275,7 @@ footer > p{
 #icon{
     text-align: right;
     padding: 0 7px 25px 0;
-    margin-top: -2%;
+    margin-top: -3%;
 }
 
 /*ID CONFIG DA CONTAINER DA FOTO*/
@@ -319,15 +314,45 @@ hr{
 
 /*RESPONSIVIDADE CABEÇAHO*/
 
+
 @media (max-width: 600px) {
+ /*MARCAS*/   
+.marcas{
+    background-color: #202020;
+    width: 90%;
+    margin: 35px 5px 0 15px;
+    border-radius: 8px;  
+ }
+
+ /*INFORMAÇÕES*/
     .item_sect{
-        float: left;
+        font-size: 10px;
         width: 30%;
-        height: 300px;
-        margin-left: 0;
-        margin-right: 3%;
+        margin-left: 1%;
     }
+
+    .sect{
+        margin: 35px 5px 0 15px; 
+        height: 200px;
+    }
+
+    /*RODAPÉ*/
+
+ .footer {
+    background-color: #f3f3f3;
+    color: #001a56;
+    border-radius: 8px;
+    height: 15px;
+    margin: 15px 20px 5px 20px;
+ }
+
+    #icon{
+        margin-left: 1%;
+        margin-top: -10%;
+    }
+    
 }
+
 
 
 
