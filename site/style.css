@@ -17,8 +17,6 @@ body{
 
 /*CABEÇALHO*/
 
-
-
 /* Menu rede social*/
 .menu{
         
@@ -113,16 +111,6 @@ main .princ {
 }
 
 
-/*ESPECIALIZADA*/
-
-/*section .sect-princ{
-    
-
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-}
-
 /*BOX DO TEXTO*/
 #ttesp{
     font-family: "Oswald", sans-serif;
@@ -172,6 +160,12 @@ main .princ {
 
  /*BOTÃO*/
 
+ .botao{
+    float: right;
+    margin-top: -4%;
+    margin-right: 44%;
+}
+
 .botao-servicos{
     text-decoration: none;
     color: #2B2B5C;
@@ -185,11 +179,6 @@ main .princ {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 16px;
-}
-
-.botao{
-    float: right;
-    margin-right: 44%;
 }
 
 
@@ -312,10 +301,38 @@ hr{
 
 
 
-/*RESPONSIVIDADE CABEÇAHO*/
+/********************************RESPONSIVIDADE****************************************************/
 
 
 @media (max-width: 600px) {
+/*LOGO MARCA*/
+.logferr{
+    margin: 5px 5px 0 5px;
+}   
+
+#logmarc{
+   
+}
+
+/*SERVIÇOS*/    
+.servicos{
+    height: 50px;
+}
+
+#ttesp{
+    background-image: url('index03.html');
+}
+
+/*FIGURA*/
+.img-figure{
+    display: none;
+}
+
+/*BOTÃO*/
+.botao{
+    display: none;
+}    
+
  /*MARCAS*/   
 .marcas{
     background-color: #202020;
@@ -325,18 +342,18 @@ hr{
  }
 
  /*INFORMAÇÕES*/
-    .item_sect{
-        font-size: 10px;
-        width: 30%;
-        margin-left: 1%;
+.item_sect{
+    font-size: 10px;
+    width: 30%;
+    margin-left: 1%;
     }
 
-    .sect{
-        margin: 35px 5px 0 15px; 
-        height: 200px;
+.sect{
+    margin: 35px 5px 0 15px; 
+    height: 200px;
     }
 
-    /*RODAPÉ*/
+/*RODAPÉ*/
 
  .footer {
     background-color: #f3f3f3;
