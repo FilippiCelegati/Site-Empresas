@@ -305,13 +305,17 @@ hr{
 
 
 @media (max-width: 600px) {
-/*LOGO MARCA*/
-.logferr{
-    margin: 5px 5px 0 5px;
-}   
+ /*INFORMAÇÕES*/   
+ .info{
+     font-size: 10px;
+ }
 
+ /*REDE SOCIAL*/
+
+
+/*LOGO MARCA*/
 #logmarc{
-   
+    margin-bottom: -70%;
 }
 
 /*SERVIÇOS*/    
