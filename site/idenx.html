@@ -17,20 +17,13 @@
 <body>
 
 <!--CABEÇALHO-->
-                    <div id="logmarc">
-                        <picture>
-                            
-                                <source media="(max-width:600px )" srcset="img/logochaveP.png" type="image/png">
-                                <source media="(max-width: 1050px )" srcset="img/logochave2.png" type="image/png">
-                                
-                                <img class="marca" src="img/logochave2.png" alt="imagem-flexivél">
-                            
-                        </picture>
-                                
-                    </div> 
+
+    <header>
+        
+                    
 
             
-    <header>
+                    <!--REDES SOCIAIS-->
               
                         
                             <div class="redsoc">
@@ -38,32 +31,55 @@
                                 <picture>
 
                                     <source media="(max-width:600px )" srcset="icones/icon-insta-min.png" type="image/png">
-                                    <a  href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img class="insta" src="icones/icon-insta.png" alt="imagem-flexivél"></a>
+                                    <a  href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img id="insta" src="icones/icon-insta.png" alt="imagem-flexivél"></a>
 
-                                    <a  href="#"><img src="icones/icon-face.png"></a>
+                                    <a  href="#"><img id="face" src="icones/icon-face.png"></a>
                                   
 
-                                </picture>     
-                            </div>     
-                        
+                                </picture>  
 
-                            <div class="info"> 
-                                <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 3651-0000</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>mec_pexe@gmail.com</strong>
                             </div>
+
+                                 
+                        
+                    <!--TEL E EMAIL-->            
+                                    <div class="info"> 
+                                        <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 3651-0000</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>mec_pexe@gmail.com</strong>
+                                    </div>
+                               
+
+                            
+                       <!--LOGO MARCAR-->     
+
+                            <div id="logmarc">
+
+                                <picture>
+                                    
+                                        <source media="(max-width:600px )" srcset="img/logochaveP.png" type="image/png">
+                                        <source media="(max-width: 1050px )" srcset="img/logochave2.png" type="image/png">
+                                        
+                                        <img class="marca" src="img/logochave2.png" alt="imagem-flexivél">
+                                    
+                                </picture>
+                                        
+                            </div> 
+
+                       <!--MENU DOS LINKS-->     
 
                         <div id="lista"></div>
 
                             <nav id="links"> 
-                                <link rel="preconnect" href="https://fonts.gstatic.com">
-                                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-                                
-                                    <ul>
+                               
+                                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu</button>
+                                    <span id="mecanica"></span>
 
-                                        <li><a href="index02.html">Quem Somos</a></li>
-                                        <li><a href="index03.html">Nossos Serviços</a></li> 
-                                        <li><a href="index04.html">Nossa Loja</a></li>
+                                            <ul id="menu" role="menu">
 
-                                    </ul> 
+                                                <li><a href="index02.html">Quem Somos</a></li>
+                                                <li><a href="index03.html">Nossos Serviços</a></li> 
+                                                <li><a href="index04.html">Nossa Loja</a></li>
+
+                                            </ul> 
                             </nav>
     </header>  
             

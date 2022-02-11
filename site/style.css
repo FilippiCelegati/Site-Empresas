@@ -18,35 +18,58 @@ body{
 /*CABEÇALHO*/
 
 .redsoc{
-    margin: 0px 0px -15px 4px;
-}    
+    display: flex;
+    width: 100%;
+    margin-bottom: -1%;
+} 
 
 .marca{
-        margin: 0px 0px -90px 0px;
+    margin-bottom: -65%;
 }
 
 nav{
     background-color: #f3f3f3;
+    box-sizing: border-box;
+    height: 130px;
+    padding: 1rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    
-    
+    justify-content: space-between;
 }
+
+#insta{
+    margin-bottom: -50%;
+    margin-left: 15px;
+}
+
+#face{
+    margin-bottom: -50%;
+}
+
+/*Tel e Email*/
+.info{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-left: 71%;
+    margin-top: 1%;
+}
+
+/*tarja fina em baixo do menu*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
 
 /*Logo da empresa*/
  #logmarc{
-   margin: -6px 0px -168px 0px;
-   padding: 73px 46px;
-  
+     display: flex;
 }
 
 /*Links*/
-
 #links > ul {
     padding: 0px;
-    margin: 0px;
+    margin-left: 700px;
     list-style:none;
 }
 
@@ -70,24 +93,21 @@ nav{
     color: #0034AC;  
 }
 
-
-/*Tel e Email*/
-.info{
-    font-family: 'Oswald', sans-serif;
-    text-align: right;
-    color: white;
-    margin-right: 30px;
-    margin-top: -1.8%;
+/*BOTÃO MENU*/
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
 }
 
-/*tarja fina em baixo do menu*/
-#lista{
-    background-color: #DD3333;
-    padding: 0px 0 .1px 0px;
-    height: 3px;
+menu a{
+    display: block;
+    padding: .5rem;
 }
 
-
+#btn-mobile{
+    display: none;
+}
 
 /*ICONE DE WHATS*/
 #whats{
@@ -304,25 +324,99 @@ hr{
 
 
 @media (max-width: 600px) {
+
+  /*TARJA AZUL*/
+  .redsoc{
+    display: inline-block;
+ }
+
+ #insta{
+     margin-bottom: -10%;
+     margin-left: 5px;
+ }
+
+ #face{
+    margin-bottom: -10%; 
+ }
+
  /*INFORMAÇÕES*/   
  .info{
      font-size: 10px;
+     margin-left: 40%;
+     text-align: center;
+     display: inline;
  }
 
- /*TARJA AZUL*/
- .redsoc{
-    margin-bottom: 50%;
- }
- 
 
- /*REDE SOCIAL*/
- .insta{
-    margin-bottom: -57%;
-} 
+ /*BOTÃO MENU*/
+ #btn-mobile {
+     margin-left: 235px;
+     display: flex;
+     padding: .5rem 1rem;
+     font-size: 15px;
+     border: none;
+     background: none;
+     cursor: pointer;
+     gap: .5rem;
+ } 
 
-/*LOGO MARCA*/
-#logmarc{
-    margin-bottom: -100%;
+ #mecanica{
+    border-top: 2px solid;
+    width: 20px;
+}
+
+#mecanica::after, #mecanica::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+
+#links.active #mecanica{
+    border-top-color: transparent;
+}
+
+#links.active #mecanica::before{
+    transform: rotate(135deg);
+}
+
+#links.active #mecanica::after{
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+ #menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 130px;
+    right: 0px;
+    background-color: #f3f3f3;
+    transition: .6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;   
+}
+
+#links.active #menu{
+    height: calc(100vh - 40px);
+    visibility: visible;
+    overflow: auto; /*para criar barra de rodagem dependendo da quantidade de itens no menu*/
+}
+
+#menu a{
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+
+/*LOCAL DO MENU E LOGO*/
+nav{
+    height: 80px;
 }
 
 /*SERVIÇOS*/    
