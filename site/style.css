@@ -420,14 +420,12 @@ nav{
 }
 
 /*WHATS*/
-#whats{
-    background: url('icones/whats-icon01.png') no-repeat; 
+.whats-img a{
+    display: none;
+    
     
 }
 
-.whats-img{
-
-}
 
 /*SERVIÇOS*/    
 .servicos{
@@ -497,10 +495,16 @@ nav{
 
 
 
+/*************************************RESPONSIVIDADE TELA CHEIA************************************************************/
+
+@media (min-width: 1050px) {
+
+.whatsP a{
+    display: none;
+}
 
 
-
-
+}
 
 
 
