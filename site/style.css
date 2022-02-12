@@ -325,8 +325,8 @@ hr{
 
 @media (max-width: 600px) {
 
-  /*TARJA AZUL*/
-  .redsoc{
+/*TARJA AZUL*/
+.redsoc{
     display: inline-block;
  }
 
@@ -417,6 +417,16 @@ hr{
 /*LOCAL DO MENU E LOGO*/
 nav{
     height: 80px;
+}
+
+/*WHATS*/
+#whats{
+    background: url('icones/whats-icon01.png') no-repeat; 
+    
+}
+
+.whats-img{
+
 }
 
 /*SERVIÇOS*/    
