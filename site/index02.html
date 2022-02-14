@@ -11,45 +11,91 @@
 </head>
 
 <body>
-    <!--CABEÇALHO-->
-    <header>
-                <div id="logmarc">
-                    <a href="idenx.html"><img src="img/logochave2.png" alt="escr"></a>
-                </div> 
-            
-                <div class="menu"> 
-                    <a class="itens_face" href="#"><img src="icones/icon-face.png"></a>
-                    <a class="itens_insta" href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img src="icones/icon-insta.png"></a>   
-                     
-            </div>
 
-                <div class="info"> 
-                    <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 3651-0000</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>mec_pexe@gmail.com</strong>
+    <!--CABEÇALHO-->
+
+    <header>
+        
+            
+        <!--REDES SOCIAIS-->
+  
+            
+                <div class="redsoc">
+
+                    <picture>
+
+                        <source media="(max-width:600px )" srcset="icones/icon-insta-min.png" type="image/png">
+                        <a  href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img id="insta" src="icones/icon-insta.png" alt="imagem-flexivél"></a>
+
+                        <a  href="#"><img id="face" src="icones/icon-face.png"></a>
+                      
+
+                    </picture>  
+
                 </div>
 
-            <div id="lista"></div> 
+                     
+            
+        <!--TEL E EMAIL-->            
+                        <div class="info"> 
+                            <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 98955-1002</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>flp.celegati@gmail.com</strong>
+                        </div>
+                   
+
+                
+           <!--LOGO MARCAR-->     
+
+                <div id="logmarc">
+
+                    <picture>
+                        
+                            <source media="(max-width:600px )" srcset="img/logochaveP.png" type="image/png">
+                            <source media="(max-width: 1050px )" srcset="img/logochave2.png" type="image/png">
+                            
+                            <img class="marca" src="img/logochave2.png" alt="imagem-flexivél">
+                        
+                    </picture>
+                            
+                </div> 
+
+           <!--MENU DOS LINKS-->     
+
+            <div id="lista"></div>
 
                 <nav id="links"> 
-                    <link rel="preconnect" href="https://fonts.gstatic.com">
-                    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-                    
-                        <ul>
+                   
+                        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu</button>
+                        <span id="mecanica"></span>
 
-                            <li><a href="index03.html">Nossos Serviços</a></li> 
-                            <li><a href="index04.html">Nossa Loja</a></li>
+                                <ul id="menu" role="menu">
 
-                        </ul> 
+                                    <li><a href="index03.html">Nossos Serviços</a></li> 
+                                    <li><a href="index04.html">Nossa Loja</a></li>
+
+                                </ul> 
                 </nav>
 </header>  
-        
+  
+   
+        <!--WHATS--> 
 
-    
+        <div id="whats">
 
-    <!--WHATS--> 
+                
+            <picture>
+                <source media="(max-width:600px )" srcset="icones/whats-icon01.png" type="image/png">
+                <source media="(max-width: 1050px )" srcset="icones/whats-icon01.png" type="image/png">
 
-    <div id="whats">
-        <a href="#"><img src="icones/contatowhats01.png"></a>
-    </div>
+                <div class="whatsP">
+                     <a href="http://api.whatsapp.com/send?phone=5519989551002" target="_blank" rel="external"><img src="icones/whats-icon01.png"  alt="imagem-flexivél"></a>
+                </div>    
+
+                <div class="whats-img">
+                    <a href="http://api.whatsapp.com/send?phone=5519989551002" target="_blank" rel="external"><img src="icones/contatowhats01.png"  alt="imagem-flexivél"></a>
+                </div>    
+         
+            </picture>
+</div>
 
 <!--PRINCIPAL DA FOTO--> 
              
@@ -58,7 +104,7 @@
                             
                     <div class="princ_qm princ_qm-desc">
                         
-                                <h1 style="font-size: 24px;">CONHEÇA A AUTO MECÂNICA INDEPENDÊNCIA</h1>
+                                <h1>CONHEÇA A AUTO MECÂNICA INDEPENDÊNCIA</h1>
                                 <p>A Auto Mecânica Independência nasceu em 0000. Somos uma empresa que trabalha com oficina mecânica e mecatrônica de automóveis, criada para revisão, manutenção e reparo de carros nacionais e importados, com o objetivo de proporcionar satisfação ao cliente com preços competitivos.</p><br>
 
                                     <h2>Nosso atendimento</h2>
@@ -67,12 +113,15 @@
                                     <h2>Nossa Oficina</h2>
                                     <p>Conduzida por profissionais técnicos capacitados, preparados para cuidar da manutenção preventiva e corretiva do seu automóvel, oferecendo os melhores equipamento de teste no processo de diagnóstico.</p><br><br>  
                                     
-                                    <h1 style="text-align: left; font-size: 18px;">NOSSA PREOCUPAÇÃO</h1>
+                                    <h1>NOSSA PREOCUPAÇÃO</h1>
                                     <p>Promover serviços com mão de obra técnica profissional através de conhecimento sólido adquirido através de cursos técnicos, treinamentos e experiências na engenharia. Procuramos a excelência na prestação de serviços com peças e mão de obra de primeira linha.</p>
                                         
                     </div>
                         <div class="locz">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.7807220566616!2d-46.75156355410232!3d-22.19276410980194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9ae0a84e7506b%3A0x292146bb20fd1e2e!2sPr.%20da%20Independ%C3%AAncia%20-%20Centro%2C%20Esp%C3%ADrito%20Santo%20do%20Pinhal%20-%20SP%2C%2013990-000!5e0!3m2!1spt-BR!2sbr!4v1626274581101!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <picture>
+                            
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.7807220566616!2d-46.75156355410232!3d-22.19276410980194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9ae0a84e7506b%3A0x292146bb20fd1e2e!2sPr.%20da%20Independ%C3%AAncia%20-%20Centro%2C%20Esp%C3%ADrito%20Santo%20do%20Pinhal%20-%20SP%2C%2013990-000!5e0!3m2!1spt-BR!2sbr!4v1626274581101!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </picture>         
                         </div>
                 
             </div>      

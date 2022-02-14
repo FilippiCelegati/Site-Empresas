@@ -349,7 +349,7 @@ hr{
 
 
  /*BOTÃO MENU*/
- #btn-mobile {
+#btn-mobile {
      margin-left: 235px;
      display: flex;
      padding: .5rem 1rem;
@@ -360,7 +360,7 @@ hr{
      gap: .5rem;
  } 
 
- #mecanica{
+#mecanica{
     border-top: 2px solid;
     width: 20px;
 }
@@ -429,12 +429,9 @@ nav{
 
 /*SERVIÇOS*/    
 .servicos{
-    height: 50px;
+    height: 100px;
 }
 
-#ttesp{
-    background-image: url('index03.html');
-}
 
 /*FIGURA*/
 .img-figure{
@@ -443,7 +440,9 @@ nav{
 
 /*BOTÃO*/
 .botao{
-    display: none;
+    float: right;
+    margin-top: -14%;
+    margin-right: 25%;
 }    
 
  /*MARCAS*/   
@@ -466,7 +465,7 @@ nav{
     height: 200px;
     }
 
-    .icon:hover p {
+.icon:hover p {
         color: red;
         padding-left: 0px;
     }    
@@ -505,6 +504,8 @@ nav{
 
 
 }
+
+
 
 
 
