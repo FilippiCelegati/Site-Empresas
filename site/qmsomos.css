@@ -389,7 +389,7 @@ nav{
     margin-left: 5px;
 }
 .princ_qm{
-    width: 100%;  
+    width: 70%;  
     padding: 0 30px; 
 }
 
@@ -425,8 +425,39 @@ iframe{
  }
 /*GALERIA DE FOTOS*/
 
+#glr{
+    display: none;
+}
+
 #galeria{
-   display: none;
+   margin-left: -10%;
+   font-size: 13px;
+   font-weight: 600;
+}
+
+figure ul{
+    width: 10px;
+    list-style: none;
+    display: flex;
+    margin: 70px;
+    
+}
+figure{
+    margin-left: 48px;
+}
+
+
+.min2{
+   width: 100px;
+   padding: 10px;
+   margin-left: -65%;
+}
+
+
+
+.box_img{
+    width: 800px;
+    margin: 5px auto;
 }
 
 
@@ -458,7 +489,15 @@ iframe{
     display: none;
 }
     
-    
+#mini-glr{
+    display: none;
+}    
+
+#mini-glr2{
+    display: none;
+}    
+
+
 }
     
 
