@@ -298,6 +298,13 @@ footer > p{
    margin-bottom: -10%; 
 }
 
+
+/*LOGO*/
+
+.marcag{
+    display: none;
+}
+
 /*INFORMAÇÕES*/   
 .info{
     font-size: 10px;
@@ -439,7 +446,7 @@ figure ul{
     width: 10px;
     list-style: none;
     display: flex;
-    margin: 70px;
+    margin: 50px;
     
 }
 figure{
@@ -449,15 +456,15 @@ figure{
 
 .min2{
    width: 100px;
-   padding: 10px;
+   padding: 5px 5px 0 0;
    margin-left: -65%;
 }
 
 
 
 .box_img{
-    width: 800px;
-    margin: 5px auto;
+    width: 500px;
+    margin: 185px auto;
 }
 
 
@@ -484,6 +491,10 @@ figure{
 /*************************************RESPONSIVIDADE TELA CHEIA************************************************************/
 
 @media (min-width: 1050px) {
+
+.marcap{
+    display: none;
+}    
 
 .whatsP a{
     display: none;

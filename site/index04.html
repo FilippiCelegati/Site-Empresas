@@ -11,44 +11,103 @@
 </head>
 
 <body>
-    <!--CABEÇALHO-->
-    <header>
-        <div id="logmarc">
-            <a href="idenx.html"><img src="img/logochave2.png" alt="escr"></a>
-        </div> 
-    
-        <div class="menu"> 
-            <a class="itens_face" href="#"><img src="icones/icon-face.png"></a>
-            <a class="itens_insta" href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img src="icones/icon-insta.png"></a><a href="https://www.google.com/maps/place/Auto+Mec%C3%A2nica+Pinhal/@-22.1920403,-46.7447955,15z/data=!4m5!3m4!1s0x0:0x1138899b2bb3e3f8!8m2!3d-22.1920403!4d-46.7447955" target="_blank" rel="external"><img style="padding: 0 0 0 10px;" src="icones/icon-loc.png"></a>    
-             
-    </div>
-    
-        <div class="info"> 
-            <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 3651-0000</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>mec_pexe@gmail.com</strong>
-        </div>
-    
-    <div id="lista"></div> 
-    
-        <nav id="links"> 
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+     <!--CABEÇALHO-->
+
+     <header>
+        
             
-                <ul>
-    
-                    <li><a href="index02.html">Quem Somos</a></li>
-                    <li><a href="index03.html">Nossos Serviços</a></li> 
-    
-                </ul> 
-        </nav>
-    </header>  
-    
-    
+        <!--REDES SOCIAIS-->
+
+        
+            <div class="redsoc">
+
+                <picture>
+
+                    
+                    <a  href="https://www.instagram.com/eng_filippi?r=nametag" target="_blank" rel="external"><img id="insta" src="icones/icon-insta.png" alt="imagem-flexivél"></a>
+
+                    <a  href="#"><img id="face" src="icones/icon-face.png"></a>
+                    
+                    <div class="loc1">
+                        <a href="https://www.google.com/maps/place/Auto+Mec%C3%A2nica+Pinhal/@-22.1920403,-46.7447955,15z/data=!4m5!3m4!1s0x0:0x1138899b2bb3e3f8!8m2!3d-22.1920403!4d-46.7447955" target="_blank" rel="external"><img  src="icones/icon-loc.png"></a>
+                    </div>
+
+                    <div class="loc2">
+                        <a href="https://www.google.com/maps/place/Auto+Mec%C3%A2nica+Pinhal/@-22.1920403,-46.7447955,15z/data=!4m5!3m4!1s0x0:0x1138899b2bb3e3f8!8m2!3d-22.1920403!4d-46.7447955" target="_blank" rel="external"><img src="icones/icon-loc.png"></a>
+                    </div>
+
+                </picture>  
+
+            </div>
+
+                 
+        
+    <!--TEL E EMAIL-->            
+                    <div class="info"> 
+                        <img div="infos" src="icones/icon-phone.png" alt="phone"> <strong>(19) 98955-1002</strong> &ensp;<img src="icones/email-icon01.png" alt="email"> <strong>flp.celegati@gmail.com</strong>
+                    </div>
+               
+
+            
+       <!--LOGO MARCAR-->     
+
+            <div id="logmarc">
+
+                <picture>
+                    
+                        <source media="(max-width:600px )" srcset="img/logochaveP.png" type="image/png">
+                        <source media="(max-width: 1050px )" srcset="img/logochave2.png" type="image/png">
+                        
+                        <div class="marcag">
+                            <a href="idenx.html"><img class="marca" src="img/logochave2.png" alt="imagem-flexivél"></a>
+                        </div> 
+                        
+                        <div class="marcap">
+                            <a href="idenx.html"><img class="marca" src="img/logochaveP.png" alt="imagem-flexivél"></a>
+                        </div>
+
+                </picture>
+                        
+            </div> 
+
+       <!--MENU DOS LINKS-->     
+
+        <div id="lista"></div>
+
+            <nav id="links"> 
+               
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu</button>
+                    <span id="mecanica"></span>
+
+                            <ul id="menu" role="menu">
+
+                                <li><a href="index02.html">Quem Somos</a></li> 
+                                <li><a href="index03.html">Nossos Serviços</a></li>
+
+                            </ul> 
+            </nav>
+</header>  
+
 
     <!--WHATS--> 
 
     <div id="whats">
-        <a href="#"><img src="icones/contatowhats01.png"></a>
-    </div>
+
+            
+        <picture>
+            <source media="(max-width:600px )" srcset="icones/whats-icon01.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="icones/whats-icon01.png" type="image/png">
+
+            <div class="whatsP">
+                 <a href="http://api.whatsapp.com/send?phone=5519989551002" target="_blank" rel="external"><img src="icones/whats-icon01.png"  alt="imagem-flexivél"></a>
+            </div>    
+
+            <div class="whats-img">
+                <a href="http://api.whatsapp.com/send?phone=5519989551002" target="_blank" rel="external"><img src="icones/contatowhats01.png"  alt="imagem-flexivél"></a>
+            </div>    
+     
+        </picture>
+</div>
 
 <!--TEXTO DE PRODUTOS--> 
              

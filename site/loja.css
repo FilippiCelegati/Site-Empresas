@@ -14,83 +14,107 @@ body{
 
 
 /*CABEÇALHO*/
-
-/* Menu rede social*/
-.menu{
-        
-    background-color: #0034AC;
-    margin-top: -20%;
+.redsoc{
+    display: flex;
     width: 100%;
-    text-align: left;
-    padding: 13px 0px;
+    margin-bottom: -1%;
+} 
+
+.marca{
+    margin-bottom: -65%;
 }
 
 nav{
-background-color: #f3f3f3;
-display: flex;
-flex-direction: column;
-align-items: center;
-max-width: 100%;
-
-
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    height: 130px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-/*Logo da empresa*/
-#logmarc{
-padding: 73px 46px;
-
+#insta{
+    margin-bottom: -50%;
+    margin-left: 15px;
 }
 
-/*Links*/
-
-#links > ul {
-padding: 0px;
-margin: 0px;
-list-style:none;
+#face{
+    margin-bottom: -50%;
 }
 
-#links > ul > li { 
-display: inline;
+.loc1{
+    margin-top: 2px;
+    margin-left: 85px;
 }
-
-#links > ul > li a {
-transition: 0.5s all !important;
-font-family: 'Oswald', sans-serif;
-font-weight: bolder;
-padding: 54px 20px;
-display: inline-block;
-text-decoration: none;
-font-size: 20px;
-text-shadow: 1px 1px 1px #111;
-color: #DD3333;
-}   
-
-#links > ul > li a:hover {
-color: #0034AC;  
-}
-
 
 /*Tel e Email*/
 .info{
-font-family: 'Oswald', sans-serif;
-text-align: right;
-color: white;
-margin-right: 30px;
-margin-top: -1.8%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-left: 71%;
+    margin-top: 1%;
 }
 
 /*tarja fina em baixo do menu*/
 #lista{
-background-color: #DD3333;
-padding: 0px 0 .1px 0px;
-height: 3px;
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
 }
 
+
+/*Logo da empresa*/
+ #logmarc{
+     display: flex;
+}
+
+/*Links*/
+#links > ul {
+    padding: 0px;
+    margin-left: 700px;
+    list-style:none;
+}
+
+#links > ul > li { 
+    display: inline;
+ }
+
+ #links > ul > li a {
+    transition: 0.5s all !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    padding: 54px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+    color: #DD3333;
+}   
+
+#links > ul > li a:hover {
+    color: #0034AC;  
+}
+
+/*BOTÃO MENU*/
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
 
 /*ICONE DE WHATS*/
 #whats{
     position: fixed;
-    top: 20%;
+    top: 35%;
     right: 2%;
     padding: 10px;
     z-index: 10000000;
@@ -228,6 +252,181 @@ footer > p{
     padding: 0 4px 14px 0;
     margin-top: -2%;
 }
+
+/********************************RESPONSIVIDADE****************************************************/
+
+@media (max-width: 600px) {
+
+/*TARJA AZUL*/
+.redsoc{
+    display: inline-block;
+    margin-bottom: -27px;
+}
+        
+#insta{
+    margin-bottom: -10%;
+    margin-left: 5px;
+}
+        
+#face{
+    margin-bottom: -10%; 
+}
+
+.loc2{
+    margin-bottom: 5%;
+    margin-left: 75px; 
+}
+
+.loc1{
+    display: none;
+}
+    
+/*LOGO*/    
+.marcag{
+    display: none;
+}
+    
+/*INFORMAÇÕES*/   
+.info{
+    font-size: 10px;
+    margin-left: 30%;
+    text-align: center;
+    display: inline;
+}
+    
+/*BOTÃO MENU*/
+#btn-mobile {
+    margin-left: 235px;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .5rem;
+} 
+    
+#mecanica{
+    border-top: 2px solid;
+    width: 20px;
+}
+    
+#mecanica::after, #mecanica::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+    
+#links.active #mecanica{
+    border-top-color: transparent;
+}
+    
+#links.active #mecanica::before{
+    transform: rotate(135deg);
+}
+    
+#links.active #mecanica::after{
+    transform: rotate(-135deg);
+    top: -7px;
+}
+    
+#menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    right: 0px;
+    background-color: #f3f3f3;
+    transition: .6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;   
+}
+    
+#links.active #menu{
+    height: calc(100vh - 40px);
+    visibility: visible;
+    overflow: auto; /*para criar barra de rodagem dependendo da quantidade de itens no menu*/
+}
+    
+#menu a{
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+    
+/*LOCAL DO MENU E LOGO*/
+nav{
+    height: 80px;
+}
+    
+/*WHATS*/
+.whats-img a{
+    display: none;  
+}
+
+/*IMAGENS*/
+
+#list-1{
+    margin-left: 200px;
+}
+    
+#list-2{
+    margin-left: 200px;
+}    
+
+/*RODAPÉ*/
+
+.footer {
+    background-color: #f3f3f3;
+    color: #001a56;
+    border-radius: 8px;
+    height: 15px;
+    margin: 15px 20px 5px 20px;
+ }
+
+#icon{
+        margin-left: 1%;
+        margin-top: -10%;
+    }
+    
+}
+
+
+
+
+/*************************************RESPONSIVIDADE TELA CHEIA************************************************************/
+
+@media (min-width: 1050px) {
+  
+.loc2{
+    display: none;
+}    
+
+.marcap{
+    display: none;
+}    
+
+.whatsP a{
+    display: none;
+}
+    
+#mini-glr{
+    display: none;
+}    
+
+#mini-glr2{
+    display: none;
+}    
+
+
+}
+      
 
 
 
