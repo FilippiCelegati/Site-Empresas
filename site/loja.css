@@ -290,8 +290,13 @@ footer > p{
 .info{
     font-size: 10px;
     margin-left: 30%;
-    text-align: center;
     display: inline;
+}
+
+.txt-lj{
+    width: 70%;
+    margin-left: 40px;
+    text-align: justify;
 }
     
 /*BOTÃO MENU*/
@@ -371,17 +376,11 @@ nav{
 }
 
 /*IMAGENS*/
-
-#list-1{
-    margin-left: 200px;
+figure{
+    display: none;
 }
-    
-#list-2{
-    margin-left: 200px;
-}    
 
 /*RODAPÉ*/
-
 .footer {
     background-color: #f3f3f3;
     color: #001a56;
