@@ -311,129 +311,170 @@ footer > p{
 
 @media (max-width: 600px) {
 
-    /*TARJA AZUL*/
-    .redsoc{
-        display: inline-block;
-        margin-bottom: -27px;
-     }
+/*TARJA AZUL*/
+.redsoc{
+    display: inline-block;
+    margin-bottom: -27px;
+}
         
-    #insta{
-        margin-bottom: -10%;
-        margin-left: 5px;
-    }
+#insta{
+    margin-bottom: -10%;
+    margin-left: 5px;
+}
         
-    #face{
-       margin-bottom: -10%; 
-    }
+#face{
+     margin-bottom: -10%; 
+}
 
-    .loc2{
-        margin-bottom: 5%;
-        margin-left: 75px; 
-    }
+.loc2{
+    margin-bottom: 5%;
+    margin-left: 75px; 
+}
 
-    .loc1{
-        display: none;
-    }
+.loc1{
+    display: none;
+}
     
-    /*LOGO*/
+/*LOGO*/
     
-    .marcag{
-        display: none;
-    }
+.marcag{
+    display: none;
+}
     
-    /*INFORMAÇÕES*/   
-    .info{
-        font-size: 10px;
-        margin-left: 30%;
-        text-align: center;
-        display: inline;
-    }
+/*INFORMAÇÕES*/   
+.info{
+    font-size: 10px;
+    margin-left: 30%;
+    text-align: center;
+    display: inline;
+}
     
-     /*BOTÃO MENU*/
-     #btn-mobile {
-        margin-left: 235px;
-        display: flex;
-        padding: .5rem 1rem;
-        font-size: 15px;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: .5rem;
-    } 
+/*BOTÃO MENU*/ 
+#btn-mobile {
+    margin-left: 235px;
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .5rem;
+} 
     
-    #mecanica{
-       border-top: 2px solid;
-       width: 20px;
-    }
+#mecanica{
+    border-top: 2px solid;
+    width: 20px;
+}
     
-    #mecanica::after, #mecanica::before {
-       content: '';
-       display: block;
-       width: 20px;
-       height: 2px;
-       background: currentColor;
-       margin-top: 5px;
-       transition: .3s;
-       position: relative;
-    }
+#mecanica::after, #mecanica::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
     
-    #links.active #mecanica{
-       border-top-color: transparent;
-    }
+#links.active #mecanica{
+    border-top-color: transparent;
+}
     
-    #links.active #mecanica::before{
-       transform: rotate(135deg);
-    }
+#links.active #mecanica::before{
+    transform: rotate(135deg);
+}
     
-    #links.active #mecanica::after{
-       transform: rotate(-135deg);
-       top: -7px;
-    }
+#links.active #mecanica::after{
+    transform: rotate(-135deg);
+    top: -7px;
+}
     
-    #menu{
-       display: block;
-       position: absolute;
-       width: 100%;
-       top: 140px;
-       right: 0px;
-       background-color: #f3f3f3;
-       transition: .6s;
-       z-index: 1000;
-       height: 0px;
-       visibility: hidden;
-       overflow: hidden;   
-    }
+#menu{
+     display: block;
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    right: 0px;
+    background-color: #f3f3f3;
+    transition: .6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;   
+}
     
-    #links.active #menu{
-       height: calc(100vh - 40px);
-       visibility: visible;
-       overflow: auto; /*para criar barra de rodagem dependendo da quantidade de itens no menu*/
-    }
+#links.active #menu{
+    height: calc(100vh - 40px);
+    visibility: visible;
+    overflow: auto; /*para criar barra de rodagem dependendo da quantidade de itens no menu*/
+}
     
-    #menu a{
-       padding: 1rem 0;
-       margin: 0 1rem;
-    }
+#menu a{
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
     
-    /*LOCAL DO MENU E LOGO*/
-    nav{
-       height: 65px;
-    }
+/*LOCAL DO MENU E LOGO*/
+nav{
+    height: 65px;
+ }
     
-    /*WHATS*/
-    .whats-img a{
-       display: none;
-       
-       
-    }
+/*WHATS*/
+.whats-img a{
+    display: none; 
+}
 
-  /*RODAPÉ*/
+/*IMAGENS DE SERVIÇOS*/
+.titulo-princ{
+    font-size: 23px;
+}
+
+.texto-padrao{
+    font-size: 15px;
+}
+
+.img_fig-emb {
+    position: absolute;
+    margin-left: 167px;
+    margin-top: -34.5%;
+}
+
+.img_fig-manu {
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 20px;
+}
+
+.img_fig-freios {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 167px;
+}
+
+.img_fig-inj {
+    position: absolute;
+    margin-top:  29%;
+    margin-left: 20px;
+}
+
+.img_fig-oleo{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 167px;
+}
+
+.file01{
+    display: none;
+}
+
+/*RODAPÉ*/
 
 .footer {
     background-color: #f3f3f3;
     color: #001a56;
     border-radius: 8px;
-    height: 15px;
+    height: 10px;
     margin: 15px 20px 5px 20px;
  }
 
@@ -471,6 +512,9 @@ footer > p{
     display: none;
 }    
 
+.file_mini{
+    display: none;
+}
 
 }
       
