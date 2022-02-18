@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*TESTE*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/********************************RESPONSIVIDADE*****************************************/
+
+@media (max-width: 600px) {
+    
+body{
+    background-color: #f3f3f3;
+
+}
+
+/*CABEÇALHO*/
+
+.redsoc{
+    display: flex;
+    width: 100%;
+    margin-bottom: -1%;
+} 
+
+.marca{
+    margin-bottom: -65%;
+}
+
+nav{
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    height: 130px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#insta{
+    margin-bottom: -50%;
+    margin-left: 15px;
+}
+
+#face{
+    margin-bottom: -50%;
+}
+
+/*Tel e Email*/
+.info{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-left: 71%;
+    margin-top: 1%;
+}
+
+/*tarja fina em baixo do menu*/
+#lista{
+    background-color: #DD3333;
+    padding: 0px 0 .1px 0px;
+    height: 3px;
+}
+
+
+/*Logo da empresa*/
+ #logmarc{
+     display: flex;
+}
+
+/*Links*/
+#links > ul {
+    padding: 0px;
+    margin-left: 700px;
+    list-style:none;
+}
+
+#links > ul > li { 
+    display: inline;
+ }
+
+ #links > ul > li a {
+    transition: 0.5s all !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    padding: 54px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #111;
+    color: #DD3333;
+}   
+
+#links > ul > li a:hover {
+    color: #0034AC;  
+}
+
+/*BOTÃO MENU*/
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+menu a{
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+/*ICONE DE WHATS*/
+#whats{
+    position: fixed;
+    top: 35%;
+    right: 2%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+#whats a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*****************************************************DESCRIÇÃO DE SERVIÇO******************************************************/
+
+section{ 
+    margin: 20px 60px 0 20px;
+}
+
+#parf-amor{
+    width: 40%;
+    text-align: center;
+    padding: 0 70px;
+}
+
+#parf-amor > p{
+    color: #c9bebe;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+}
+
+#parf-amor > h1{
+    color: #f3f3f3;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.42857143;
+    text-align: center;
+}
+
+}
+
+
