@@ -362,11 +362,13 @@ footer > p{
 } 
     
 #mecanica{
+    color: red;
     border-top: 2px solid;
     width: 20px;
 }
     
 #mecanica::after, #mecanica::before {
+    
     content: '';
     display: block;
     width: 20px;
