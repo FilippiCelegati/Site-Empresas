@@ -20,7 +20,7 @@ body{
 .redsoc{
     display: flex;
     width: 100%;
-    margin-bottom: -1%;
+    margin-bottom: 0%;
 } 
 
 .marca{
@@ -331,13 +331,14 @@ hr{
  }
 
  #insta{
-     margin-bottom: -10%;
-     margin-left: 5px;
- }
+    margin-bottom: -10%;
+    margin-left: 5px;
+}
+    
+#face{
+   margin-bottom: -10%; 
+}
 
- #face{
-    margin-bottom: -10%; 
- }
 
  /*INFORMAÇÕES*/   
  .info{
