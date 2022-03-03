@@ -17,6 +17,7 @@
     <td>HTML5</td>
     <td>JAVASCRIPT</td>
     <td>Bootstrap</td>
+    <td>Media queries</td>
   </tr>
  </table>
  
@@ -47,6 +48,7 @@
  ![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag_info.png)
  
  ## Página Quem Somos:
+ 
  <p>Na página <strong>Quem Somos</strong> contamos a história da Mecânica, nossos compromissos, temos a localização que é linkado ao Google Maps e abaixo temos a galeria de fotos que a idéia é colocar fotos dos serviços, funcionários, de tudo da Mecânica, na galeria contém botões de <strong>next</strong> e <strong>prev</strong> que passa as imagens para frente e volta a anterior, também contendo um <strong>X</strong> para fechar a galeria e voltar a navegação normal.</p>
 
 ![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-qs.png)
@@ -54,6 +56,27 @@
 ![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-qs2.png)
 
 ![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-qs3.png)
+
+## Página de Serviços:
+ <p>Na nossa página relacionada a <strong>Serviços</strong> no cabeçalho incluimos um ícone de <strong>Localização</strong> para facilitar caso haja interesse nos serviços e já veja a localização sem precisar acessar outras páginas do site. Abaixo temos as imagens que representariam alguns dos principais serviços que a mecânica prestaria a seus clientes, clicando na imagem abre uma outra imagem do mesmo formato que foi feito na página de <em>Quem Somos</em> mexplicando cada serviço e o porque de fazer as manutenções. Lembrando que criei um exemplo, mas posso mudar o formato de como é apresentado esses serviços com outras imagens ou até mesmo criando links para outras páginas. </p>
+
+![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-sv.png)
+
+![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-sv2.png)
  
  
+ ## Página da Loja:
+ <p>Na página referente a <strong>Loja</strong> pensei na idéia de que muitas mecânicas também são "Auto Peças" sendo assim nessa página eles poderiam expor seus produtos de várias maneiras,isso aprensentado seria uma prévia do que pode ser feito a gosto do cliente, serve mais para mostrar que pode ter uma parte referente a produtos, seja eles quais forem.</p>
+ 
+![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-lj.png)
+
+![header](https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/pag-lj2.png) 
+
+# Responsividade:
+
+<p>O site também tem a responsividade para uso em outros displays caso seja acessado de outros aparelhos que não seja o notbook ou computadores convencionais. Nesse processo de renderização foi usado o <strong>Media Queries</strong> que é um recurso do <em>CSS3</em>.
+
+#Video do Site funcionando.
+
+<img src="https://github.com/FilippiCelegati/Site-Empresas/blob/main/readme/video-site.mp4">
  
